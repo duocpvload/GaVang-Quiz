@@ -1,0 +1,67 @@
+[
+  {
+    "question": "Cơ quan nào trong cơ thể người có chức năng bơm máu đi khắp cơ thể?",
+    "options": ["Tim", "Phổi", "Gan", "Dạ dày"],
+    "answer": "Tim"
+  },
+  {
+    "question": "Con người hít vào khí gì để duy trì sự sống?",
+    "options": ["Ô-xi", "Các-bô-níc", "Ni-tơ", "Hi-đrô"],
+    "answer": "Ô-xi"
+  },
+  {
+    "question": "Nguồn năng lượng chủ yếu của Trái Đất là gì?",
+    "options": ["Mặt Trời", "Gió", "Than đá", "Dầu mỏ"],
+    "answer": "Mặt Trời"
+  },
+  {
+    "question": "Nước tồn tại ở mấy thể?",
+    "options": ["3", "2", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "Thể khí của nước được gọi là gì?",
+    "options": ["Hơi nước", "Nước đá", "Mưa", "Sương"],
+    "answer": "Hơi nước"
+  },
+  {
+    "question": "Loài vật nào dưới đây là động vật có xương sống?",
+    "options": ["Cá chép", "Con kiến", "Con nhện", "Con tôm"],
+    "answer": "Cá chép"
+  },
+  {
+    "question": "Đâu là biện pháp tiết kiệm điện?",
+    "options": [
+      "Tắt đèn khi không sử dụng",
+      "Bật tất cả đèn trong nhà",
+      "Mở tivi cả ngày",
+      "Cắm sạc liên tục"
+    ],
+    "answer": "Tắt đèn khi không sử dụng"
+  },
+  {
+    "question": "Thực vật cần gì để quang hợp?",
+    "options": [
+      "Ánh sáng Mặt Trời",
+      "Đá",
+      "Nhựa",
+      "Kim loại"
+    ],
+    "answer": "Ánh sáng Mặt Trời"
+  },
+  {
+    "question": "Hành tinh nào chúng ta đang sinh sống?",
+    "options": ["Trái Đất", "Sao Hỏa", "Sao Kim", "Sao Mộc"],
+    "answer": "Trái Đất"
+  },
+  {
+    "question": "Để bảo vệ môi trường, chúng ta nên làm gì?",
+    "options": [
+      "Trồng cây xanh",
+      "Xả rác bừa bãi",
+      "Đốt rác ngoài đường",
+      "Phá rừng"
+    ],
+    "answer": "Trồng cây xanh"
+  }
+]
