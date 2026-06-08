@@ -28,7 +28,7 @@ function chooseSubject(subject){
 async function loadQuiz(subject, grade){
 
     const file = `${subject}_lop_${grade}.json`;
-    alert(file);
+
     const response = await fetch(file);
 
     questions = await response.json();
