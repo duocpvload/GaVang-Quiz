@@ -131,7 +131,6 @@ const seconds =
             document.getElementById("quiz").innerHTML=`
             <h2>Hoàn thành!</h2>
             <h1>${score}/${questions.length}</h1>
-            <p>⏱️ Thời gian: ${minutes} phút ${seconds} giây</p>
             <button onclick="location.reload()">
                 Chơi lại
             </button>
