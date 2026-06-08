@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Từ nào là tên con vật?",
+    "options": [
+      "Con mèo",
+      "Cái bàn",
+      "Ngôi nhà",
+      "Cây bút"
+    ],
+    "answer": "Con mèo"
+  },
+  {
+    "question": "Chọn từ viết đúng chính tả",
+    "options": [
+      "chăm chỉ",
+      "chăm trỉ",
+      "xăm chỉ",
+      "xăm trỉ"
+    ],
+    "answer": "chăm chỉ"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động?",
+    "options": [
+      "chạy",
+      "cây",
+      "bút",
+      "đẹp"
+    ],
+    "answer": "chạy"
+  },
+  {
+    "question": "Từ nào là tính từ?",
+    "options": [
+      "đẹp",
+      "ăn",
+      "bàn",
+      "xe"
+    ],
+    "answer": "đẹp"
+  },
+  {
+    "question": "Dấu kết thúc câu hỏi là gì?",
+    "options": [
+      "?",
+      "!",
+      ".",
+      ","
+    ],
+    "answer": "?"
+  }
+]
