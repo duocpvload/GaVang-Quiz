@@ -1,5 +1,170 @@
 [
   {
+    "question": "Trong câu 'Mẹ em nấu cơm rất ngon', chủ ngữ là gì?",
+    "options": ["Mẹ em", "Nấu cơm", "Rất ngon", "Cơm"],
+    "answer": "Mẹ em"
+  },
+  {
+    "question": "Trong câu 'Mẹ em nấu cơm rất ngon', vị ngữ là gì?",
+    "options": ["Nấu cơm rất ngon", "Mẹ em", "Cơm", "Ngon"],
+    "answer": "Nấu cơm rất ngon"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ người?",
+    "options": ["Công nhân", "Làm việc", "Siêng năng", "Nhanh nhẹn"],
+    "answer": "Công nhân"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ sự vật?",
+    "options": ["Chiếc đồng hồ", "Đi bộ", "Chăm chỉ", "Lắng nghe"],
+    "answer": "Chiếc đồng hồ"
+  },
+  {
+    "question": "Từ nào là động từ?",
+    "options": ["Quan sát", "Bầu trời", "Cao lớn", "Dũng cảm"],
+    "answer": "Quan sát"
+  },
+  {
+    "question": "Từ nào là tính từ?",
+    "options": ["Ngay thẳng", "Bác nông dân", "Tưới cây", "Con đường"],
+    "answer": "Ngay thẳng"
+  },
+  {
+    "question": "Câu nào thuộc mẫu 'Ai làm gì?'",
+    "options": [
+      "Các bạn đang quét sân trường.",
+      "Các bạn rất chăm chỉ.",
+      "Các bạn là học sinh.",
+      "Các bạn thật đáng khen."
+    ],
+    "answer": "Các bạn đang quét sân trường."
+  },
+  {
+    "question": "Câu nào thuộc mẫu 'Ai thế nào?'",
+    "options": [
+      "Con chó rất trung thành.",
+      "Con chó giữ nhà.",
+      "Con chó là vật nuôi.",
+      "Con chó chạy quanh sân."
+    ],
+    "answer": "Con chó rất trung thành."
+  },
+  {
+    "question": "Câu nào thuộc mẫu 'Ai là gì?'",
+    "options": [
+      "Chị em là sinh viên.",
+      "Chị em đang học bài.",
+      "Chị em rất chăm chỉ.",
+      "Chị em đọc sách."
+    ],
+    "answer": "Chị em là sinh viên."
+  },
+  {
+    "question": "Từ nào chỉ hoạt động bằng mắt?",
+    "options": ["Ngắm", "Nghe", "Nói", "Chạm"],
+    "answer": "Ngắm"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động bằng tai?",
+    "options": ["Lắng nghe", "Quan sát", "Viết", "Đọc"],
+    "answer": "Lắng nghe"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động bằng miệng?",
+    "options": ["Kể chuyện", "Ngắm cảnh", "Chạy bộ", "Đạp xe"],
+    "answer": "Kể chuyện"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ hình dáng?",
+    "options": ["Tròn trịa", "Chạy nhanh", "Cái bánh", "Bầu trời"],
+    "answer": "Tròn trịa"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ màu sắc?",
+    "options": ["Vàng óng", "Con ong", "Bay lượn", "Vườn hoa"],
+    "answer": "Vàng óng"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ phẩm chất?",
+    "options": ["Khiêm tốn", "Đi học", "Ngôi trường", "Chiếc bút"],
+    "answer": "Khiêm tốn"
+  },
+  {
+    "question": "Trong câu 'Ông em đọc báo mỗi sáng', từ nào chỉ thời gian?",
+    "options": ["Mỗi sáng", "Ông em", "Đọc báo", "Báo"],
+    "answer": "Mỗi sáng"
+  },
+  {
+    "question": "Trong câu 'Chúng em học bài trong thư viện', từ nào chỉ nơi chốn?",
+    "options": ["Trong thư viện", "Chúng em", "Học bài", "Bài"],
+    "answer": "Trong thư viện"
+  },
+  {
+    "question": "Từ nào là danh từ riêng?",
+    "options": ["Trường Sơn", "Ngọn núi", "Dòng sông", "Cánh đồng"],
+    "answer": "Trường Sơn"
+  },
+  {
+    "question": "Từ nào là danh từ chung?",
+    "options": ["Ngọn núi", "Hà Nội", "Việt Nam", "Thái Bình"],
+    "answer": "Ngọn núi"
+  },
+  {
+    "question": "Dấu nào thích hợp điền vào cuối câu: 'Bạn đã làm bài tập chưa___'",
+    "options": ["?", ".", "!", ","],
+    "answer": "?"
+  },
+  {
+    "question": "Dấu nào thích hợp điền vào cuối câu: 'Ôi, cảnh hoàng hôn đẹp quá___'",
+    "options": ["!", ".", "?", ","],
+    "answer": "!"
+  },
+  {
+    "question": "Dấu nào thích hợp điền vào cuối câu: 'Em đang học bài___'",
+    "options": [".", "?", "!", ":"],
+    "answer": "."
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của nước?",
+    "options": ["Chảy", "Xanh", "Mát", "Trong"],
+    "answer": "Chảy"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của gió?",
+    "options": ["Thổi", "Cao", "Rộng", "Mạnh"],
+    "answer": "Thổi"
+  },
+  {
+    "question": "Từ nào là tính từ miêu tả âm thanh?",
+    "options": ["Rì rào", "Cánh đồng", "Đi học", "Bông hoa"],
+    "answer": "Rì rào"
+  },
+  {
+    "question": "Từ nào là động từ chỉ hoạt động trí óc?",
+    "options": ["Suy nghĩ", "Chạy", "Nhảy", "Hát"],
+    "answer": "Suy nghĩ"
+  },
+  {
+    "question": "Trong câu 'Bầu trời hôm nay rất quang đãng', tính từ là gì?",
+    "options": ["Quang đãng", "Bầu trời", "Hôm nay", "Rất"],
+    "answer": "Quang đãng"
+  },
+  {
+    "question": "Trong câu 'Các em chăm chú nghe giảng', động từ là gì?",
+    "options": ["Nghe giảng", "Các em", "Chăm chú", "Giảng"],
+    "answer": "Nghe giảng"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ đồ dùng trong gia đình?",
+    "options": ["Tủ quần áo", "Vui vẻ", "Chạy bộ", "Học tập"],
+    "answer": "Tủ quần áo"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ trạng thái?",
+    "options": ["Mệt mỏi", "Bác sĩ", "Đạp xe", "Sân trường"],
+    "answer": "Mệt mỏi"
+  },
+  {
     "question": "Từ nào là danh từ?",
     "options": ["Cây bàng", "Chạy", "Đẹp", "Nhanh"],
     "answer": "Cây bàng"
