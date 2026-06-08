@@ -1,52 +1,152 @@
 [
   {
-    "question": "Từ nào là tên con vật?",
-    "options": [
-      "Con mèo",
-      "Cái bàn",
-      "Ngôi nhà",
-      "Cây bút"
-    ],
-    "answer": "Con mèo"
+    "question": "Từ nào đồng nghĩa với từ 'chăm chỉ'?",
+    "options": ["Siêng năng", "Lười biếng", "Chậm chạp", "Yếu đuối"],
+    "answer": "Siêng năng"
   },
   {
-    "question": "Chọn từ viết đúng chính tả",
-    "options": [
-      "chăm chỉ",
-      "chăm trỉ",
-      "xăm chỉ",
-      "xăm trỉ"
-    ],
-    "answer": "chăm chỉ"
+    "question": "Từ nào trái nghĩa với từ 'cao'?",
+    "options": ["Thấp", "Dài", "To", "Rộng"],
+    "answer": "Thấp"
+  },
+  {
+    "question": "Trong câu 'Ông mặt trời mỉm cười', sự vật nào được nhân hóa?",
+    "options": ["Mặt trời", "Ông", "Nụ cười", "Bầu trời"],
+    "answer": "Mặt trời"
+  },
+  {
+    "question": "Từ nào viết đúng chính tả?",
+    "options": ["Sạch sẽ", "Sạch sẽe", "Xạch sẽ", "Sạch xẽ"],
+    "answer": "Sạch sẽ"
+  },
+  {
+    "question": "Câu nào là câu hỏi?",
+    "options": ["Bạn đã làm bài chưa?", "Em đang học bài.", "Trời đẹp quá!", "Hãy giữ trật tự."],
+    "answer": "Bạn đã làm bài chưa?"
   },
   {
     "question": "Từ nào chỉ hoạt động?",
-    "options": [
-      "chạy",
-      "cây",
-      "bút",
-      "đẹp"
-    ],
-    "answer": "chạy"
+    "options": ["Đọc", "Sách", "Bàn", "Nhà"],
+    "answer": "Đọc"
+  },
+  {
+    "question": "Từ nào chỉ đặc điểm?",
+    "options": ["Nhanh nhẹn", "Chạy", "Cặp sách", "Cây bàng"],
+    "answer": "Nhanh nhẹn"
+  },
+  {
+    "question": "Từ nào đồng nghĩa với từ 'dũng cảm'?",
+    "options": ["Can đảm", "Nhút nhát", "Lo sợ", "Yếu đuối"],
+    "answer": "Can đảm"
+  },
+  {
+    "question": "Từ nào trái nghĩa với từ 'vui vẻ'?",
+    "options": ["Buồn bã", "Hạnh phúc", "Tươi cười", "Phấn khởi"],
+    "answer": "Buồn bã"
+  },
+  {
+    "question": "Dòng nào gồm toàn từ chỉ người?",
+    "options": ["Bác sĩ, giáo viên, học sinh", "Cây bàng, hoa hồng, lá", "Chạy, nhảy, đọc", "Bàn, ghế, bảng"],
+    "answer": "Bác sĩ, giáo viên, học sinh"
+  },
+  {
+    "question": "Câu tục ngữ nào nói về sự đoàn kết?",
+    "options": ["Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao", "Có công mài sắt có ngày nên kim", "Ăn quả nhớ kẻ trồng cây", "Đi một ngày đàng học một sàng khôn"],
+    "answer": "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao"
+  },
+  {
+    "question": "Từ nào là danh từ?",
+    "options": ["Học sinh", "Đẹp", "Chạy", "Vui"],
+    "answer": "Học sinh"
+  },
+  {
+    "question": "Từ nào là động từ?",
+    "options": ["Viết", "Bút", "Đẹp", "Thông minh"],
+    "answer": "Viết"
   },
   {
     "question": "Từ nào là tính từ?",
-    "options": [
-      "đẹp",
-      "ăn",
-      "bàn",
-      "xe"
-    ],
-    "answer": "đẹp"
+    "options": ["Xinh đẹp", "Hoa", "Đi", "Học sinh"],
+    "answer": "Xinh đẹp"
   },
   {
-    "question": "Dấu kết thúc câu hỏi là gì?",
-    "options": [
-      "?",
-      "!",
-      ".",
-      ","
-    ],
+    "question": "Dấu câu nào dùng để kết thúc câu hỏi?",
+    "options": ["?", ".", ",", ":"],
     "answer": "?"
+  },
+  {
+    "question": "Trong câu 'Chú gà trống gáy vang', từ nào là chủ ngữ?",
+    "options": ["Chú gà trống", "Gáy", "Vang", "Trống"],
+    "answer": "Chú gà trống"
+  },
+  {
+    "question": "Từ nào đồng nghĩa với từ 'thông minh'?",
+    "options": ["Sáng dạ", "Chậm hiểu", "Lười biếng", "Yếu đuối"],
+    "answer": "Sáng dạ"
+  },
+  {
+    "question": "Từ nào trái nghĩa với từ 'thật thà'?",
+    "options": ["Gian dối", "Trung thực", "Chăm chỉ", "Tốt bụng"],
+    "answer": "Gian dối"
+  },
+  {
+    "question": "Câu nào sử dụng phép so sánh?",
+    "options": ["Mặt hồ phẳng như tấm gương", "Mặt hồ rất đẹp", "Mặt hồ rộng lớn", "Mặt hồ trong xanh"],
+    "answer": "Mặt hồ phẳng như tấm gương"
+  },
+  {
+    "question": "Từ nào viết đúng chính tả?",
+    "options": ["Chăm chỉ", "Trăm chỉ", "Xăm chỉ", "Chăm trỉ"],
+    "answer": "Chăm chỉ"
+  },
+  {
+    "question": "Trong câu 'Cô giáo giảng bài', vị ngữ là gì?",
+    "options": ["Giảng bài", "Cô giáo", "Bài", "Giảng"],
+    "answer": "Giảng bài"
+  },
+  {
+    "question": "Từ nào chỉ nghề nghiệp?",
+    "options": ["Kỹ sư", "Bút chì", "Hoa hồng", "Xe đạp"],
+    "answer": "Kỹ sư"
+  },
+  {
+    "question": "Từ nào đồng nghĩa với từ 'siêng năng'?",
+    "options": ["Chăm chỉ", "Lười biếng", "Chậm chạp", "Yếu đuối"],
+    "answer": "Chăm chỉ"
+  },
+  {
+    "question": "Từ nào trái nghĩa với từ 'nhanh'?",
+    "options": ["Chậm", "Mạnh", "Xa", "Gần"],
+    "answer": "Chậm"
+  },
+  {
+    "question": "Câu nào là câu cảm?",
+    "options": ["Ôi, bông hoa đẹp quá!", "Bạn đi đâu đấy?", "Em đang học bài.", "Hãy giữ trật tự."],
+    "answer": "Ôi, bông hoa đẹp quá!"
+  },
+  {
+    "question": "Từ nào chỉ thời gian?",
+    "options": ["Buổi chiều", "Cây bàng", "Con mèo", "Bàn học"],
+    "answer": "Buổi chiều"
+  },
+  {
+    "question": "Từ nào chỉ nơi chốn?",
+    "options": ["Thư viện", "Chạy", "Đẹp", "Học sinh"],
+    "answer": "Thư viện"
+  },
+  {
+    "question": "Từ nào thuộc nhóm từ chỉ hoạt động học tập?",
+    "options": ["Ôn bài", "Đá bóng", "Ngủ", "Ăn cơm"],
+    "answer": "Ôn bài"
+  },
+  {
+    "question": "Câu tục ngữ nào khuyên con người biết ơn?",
+    "options": ["Ăn quả nhớ kẻ trồng cây", "Có công mài sắt có ngày nên kim", "Một cây làm chẳng nên non", "Đi một ngày đàng học một sàng khôn"],
+    "answer": "Ăn quả nhớ kẻ trồng cây"
+  },
+  {
+    "question": "Từ nào là từ ghép?",
+    "options": ["Học sinh", "Học", "Sinh", "Đọc"],
+    "answer": "Học sinh"
   }
 ]
