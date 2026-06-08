@@ -2,6 +2,13 @@ let questions = [];
 let current = 0;
 let score = 0;
 
+function shuffle(array){
+    for(let i = array.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 function chooseSubject(subject){
 
     let html = "<h2>Chọn lớp</h2>";
@@ -24,6 +31,8 @@ async function loadQuiz(subject, grade){
 
     questions = await response.json();
 
+    shuffle(questions);
+
     current = 0;
     score = 0;
 
@@ -36,6 +45,7 @@ async function loadQuiz(subject, grade){
 function showQuestion(){
 
     const q = questions[current];
+    shuffle(q.options);
 
     document.getElementById("progress").innerHTML =
         `Câu ${current+1}/${questions.length}`;
