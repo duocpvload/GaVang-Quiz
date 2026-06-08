@@ -109,16 +109,7 @@ function checkAnswer(selected, answer){
                 btn.classList.add("correct");
             }
         });
-
-
-const totalSeconds =
-    Math.floor((Date.now() - startTime) / 1000);
-
-const minutes =
-    Math.floor(totalSeconds / 60);
-
-const seconds =
-    totalSeconds % 60;        document.getElementById("result").innerHTML=
+     document.getElementById("result").innerHTML=
             `❌ Sai<br>Đáp án đúng: ${answer}`;
     }
 
