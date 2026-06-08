@@ -34,6 +34,8 @@ async function loadQuiz(subject, grade){
 
     shuffle(questions);
 
+    questions = questions.slice(0, 20);
+
     current = 0;
     score = 0;
 
