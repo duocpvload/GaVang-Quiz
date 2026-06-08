@@ -1,67 +1,232 @@
 [
   {
-    "question": "Cơ quan nào trong cơ thể người có chức năng bơm máu đi khắp cơ thể?",
-    "options": ["Tim", "Phổi", "Gan", "Dạ dày"],
-    "answer": "Tim"
-  },
-  {
-    "question": "Con người hít vào khí gì để duy trì sự sống?",
-    "options": ["Ô-xi", "Các-bô-níc", "Ni-tơ", "Hi-đrô"],
-    "answer": "Ô-xi"
-  },
-  {
-    "question": "Nguồn năng lượng chủ yếu của Trái Đất là gì?",
-    "options": ["Mặt Trời", "Gió", "Than đá", "Dầu mỏ"],
-    "answer": "Mặt Trời"
-  },
-  {
-    "question": "Nước tồn tại ở mấy thể?",
-    "options": ["3", "2", "4", "5"],
-    "answer": "3"
-  },
-  {
-    "question": "Thể khí của nước được gọi là gì?",
-    "options": ["Hơi nước", "Nước đá", "Mưa", "Sương"],
-    "answer": "Hơi nước"
-  },
-  {
-    "question": "Loài vật nào dưới đây là động vật có xương sống?",
-    "options": ["Cá chép", "Con kiến", "Con nhện", "Con tôm"],
-    "answer": "Cá chép"
-  },
-  {
-    "question": "Đâu là biện pháp tiết kiệm điện?",
+    "question": "Vì sao chúng ta nhìn thấy Mặt Trăng vào ban đêm?",
     "options": [
-      "Tắt đèn khi không sử dụng",
-      "Bật tất cả đèn trong nhà",
-      "Mở tivi cả ngày",
-      "Cắm sạc liên tục"
+      "Mặt Trăng phản chiếu ánh sáng Mặt Trời",
+      "Mặt Trăng tự phát sáng",
+      "Mặt Trăng phát ra điện",
+      "Mặt Trăng chứa lửa"
     ],
-    "answer": "Tắt đèn khi không sử dụng"
+    "answer": "Mặt Trăng phản chiếu ánh sáng Mặt Trời"
   },
   {
-    "question": "Thực vật cần gì để quang hợp?",
+    "question": "Trong các vật sau, vật nào dẫn điện tốt nhất?",
+    "options": ["Dây đồng", "Gỗ khô", "Nhựa", "Cao su"],
+    "answer": "Dây đồng"
+  },
+  {
+    "question": "Nếu cây bị đặt trong bóng tối nhiều ngày, điều gì dễ xảy ra nhất?",
     "options": [
-      "Ánh sáng Mặt Trời",
-      "Đá",
-      "Nhựa",
-      "Kim loại"
+      "Cây yếu dần và có thể chết",
+      "Cây phát triển nhanh hơn",
+      "Cây ra nhiều hoa hơn",
+      "Cây không thay đổi"
     ],
-    "answer": "Ánh sáng Mặt Trời"
+    "answer": "Cây yếu dần và có thể chết"
   },
   {
-    "question": "Hành tinh nào chúng ta đang sinh sống?",
-    "options": ["Trái Đất", "Sao Hỏa", "Sao Kim", "Sao Mộc"],
-    "answer": "Trái Đất"
+    "question": "Cơ quan nào lọc máu và tạo nước tiểu?",
+    "options": ["Thận", "Tim", "Phổi", "Gan"],
+    "answer": "Thận"
   },
   {
-    "question": "Để bảo vệ môi trường, chúng ta nên làm gì?",
+    "question": "Tại sao phải đun sôi nước trước khi uống?",
     "options": [
-      "Trồng cây xanh",
-      "Xả rác bừa bãi",
-      "Đốt rác ngoài đường",
-      "Phá rừng"
+      "Để tiêu diệt nhiều vi khuẩn có hại",
+      "Để nước ngọt hơn",
+      "Để tăng lượng ô-xi",
+      "Để nước có màu đẹp hơn"
     ],
-    "answer": "Trồng cây xanh"
+    "answer": "Để tiêu diệt nhiều vi khuẩn có hại"
+  },
+  {
+    "question": "Nguồn năng lượng nào là năng lượng tái tạo?",
+    "options": ["Năng lượng Mặt Trời", "Than đá", "Dầu mỏ", "Khí đốt"],
+    "answer": "Năng lượng Mặt Trời"
+  },
+  {
+    "question": "Động vật nào dưới đây là động vật có vú?",
+    "options": ["Cá voi", "Cá mập", "Cá chép", "Cá ngừ"],
+    "answer": "Cá voi"
+  },
+  {
+    "question": "Máu có màu đỏ chủ yếu do chất nào?",
+    "options": ["Huyết sắc tố", "Canxi", "Tinh bột", "Vitamin C"],
+    "answer": "Huyết sắc tố"
+  },
+  {
+    "question": "Khi chạy nhanh, nhịp tim thường như thế nào?",
+    "options": [
+      "Đập nhanh hơn",
+      "Đập chậm hơn",
+      "Ngừng đập",
+      "Không thay đổi"
+    ],
+    "answer": "Đập nhanh hơn"
+  },
+  {
+    "question": "Trái Đất quay quanh Mặt Trời mất khoảng bao lâu?",
+    "options": ["365 ngày", "30 ngày", "7 ngày", "24 giờ"],
+    "answer": "365 ngày"
+  },
+  {
+    "question": "Hiện tượng ngày và đêm xảy ra do đâu?",
+    "options": [
+      "Trái Đất tự quay quanh trục",
+      "Mặt Trăng quay quanh Trái Đất",
+      "Mặt Trời quay quanh Trái Đất",
+      "Mây che ánh sáng"
+    ],
+    "answer": "Trái Đất tự quay quanh trục"
+  },
+  {
+    "question": "Loại đất nào thường thích hợp cho nhiều loại cây trồng?",
+    "options": ["Đất màu", "Đất đá", "Đất sỏi", "Đất cát khô"],
+    "answer": "Đất màu"
+  },
+  {
+    "question": "Trong chuỗi thức ăn, cây xanh được gọi là gì?",
+    "options": ["Sinh vật sản xuất", "Sinh vật tiêu thụ", "Động vật ăn thịt", "Vi sinh vật"],
+    "answer": "Sinh vật sản xuất"
+  },
+  {
+    "question": "Bộ phận nào của cây hấp thụ nước và muối khoáng?",
+    "options": ["Rễ", "Lá", "Hoa", "Quả"],
+    "answer": "Rễ"
+  },
+  {
+    "question": "Nếu chặt phá rừng quá mức, hậu quả nào dễ xảy ra?",
+    "options": [
+      "Lũ lụt và xói mòn đất",
+      "Tăng diện tích rừng",
+      "Tăng số lượng động vật",
+      "Không ảnh hưởng gì"
+    ],
+    "answer": "Lũ lụt và xói mòn đất"
+  },
+  {
+    "question": "Kim loại nào thường được dùng làm dây điện?",
+    "options": ["Đồng", "Đá", "Gỗ", "Thủy tinh"],
+    "answer": "Đồng"
+  },
+  {
+    "question": "Con người cần ăn uống đầy đủ để làm gì?",
+    "options": [
+      "Cung cấp năng lượng và chất dinh dưỡng",
+      "Làm tăng chiều cao ngay lập tức",
+      "Không cần ngủ",
+      "Không cần vận động"
+    ],
+    "answer": "Cung cấp năng lượng và chất dinh dưỡng"
+  },
+  {
+    "question": "Khi trời nóng, cơ thể tiết mồ hôi chủ yếu để làm gì?",
+    "options": [
+      "Giúp làm mát cơ thể",
+      "Tăng cân",
+      "Tăng chiều cao",
+      "Làm khô da"
+    ],
+    "answer": "Giúp làm mát cơ thể"
+  },
+  {
+    "question": "Loài nào sau đây đẻ con?",
+    "options": ["Dơi", "Gà", "Cá chép", "Rùa"],
+    "answer": "Dơi"
+  },
+  {
+    "question": "Thực phẩm nào chứa nhiều chất đạm nhất?",
+    "options": ["Thịt cá", "Đường", "Muối", "Nước lọc"],
+    "answer": "Thịt cá"
+  },
+  {
+    "question": "Ánh sáng truyền đi nhanh hơn âm thanh hay chậm hơn?",
+    "options": [
+      "Nhanh hơn",
+      "Chậm hơn",
+      "Bằng nhau",
+      "Không xác định"
+    ],
+    "answer": "Nhanh hơn"
+  },
+  {
+    "question": "Vì sao ta thấy tia chớp trước khi nghe tiếng sấm?",
+    "options": [
+      "Ánh sáng truyền nhanh hơn âm thanh",
+      "Sấm xuất hiện sau",
+      "Tai nghe chậm",
+      "Mắt nhìn quá nhanh"
+    ],
+    "answer": "Ánh sáng truyền nhanh hơn âm thanh"
+  },
+  {
+    "question": "Nếu không có thực vật xanh, điều gì sẽ bị ảnh hưởng nhiều nhất?",
+    "options": [
+      "Nguồn thức ăn và ô-xi",
+      "Màu sắc bầu trời",
+      "Kích thước Trái Đất",
+      "Độ dài một ngày"
+    ],
+    "answer": "Nguồn thức ăn và ô-xi"
+  },
+  {
+    "question": "Bệnh sâu răng thường liên quan nhiều đến việc gì?",
+    "options": [
+      "Vệ sinh răng miệng kém",
+      "Uống nhiều nước",
+      "Tập thể dục",
+      "Ngủ đủ giấc"
+    ],
+    "answer": "Vệ sinh răng miệng kém"
+  },
+  {
+    "question": "Đâu là ví dụ về biến đổi hóa học?",
+    "options": [
+      "Đốt cháy giấy",
+      "Làm tan đá",
+      "Cắt giấy",
+      "Nghiền đường"
+    ],
+    "answer": "Đốt cháy giấy"
+  },
+  {
+    "question": "Đâu là ví dụ về biến đổi vật lí?",
+    "options": [
+      "Nước đá tan thành nước",
+      "Đốt gỗ thành tro",
+      "Sắt bị gỉ",
+      "Nấu chín trứng"
+    ],
+    "answer": "Nước đá tan thành nước"
+  },
+  {
+    "question": "Trong các hành động sau, hành động nào bảo vệ nguồn nước?",
+    "options": [
+      "Không xả rác xuống sông",
+      "Đổ dầu thải xuống cống",
+      "Vứt pin xuống ao",
+      "Rửa xe trên hồ"
+    ],
+    "answer": "Không xả rác xuống sông"
+  },
+  {
+    "question": "Môi trường sống của cá là gì?",
+    "options": ["Dưới nước", "Trên cây", "Trong hang", "Trên sa mạc"],
+    "answer": "Dưới nước"
+  },
+  {
+    "question": "Để xương chắc khỏe, cơ thể cần bổ sung nhiều chất gì?",
+    "options": ["Canxi", "Đường", "Muối", "Tinh bột"],
+    "answer": "Canxi"
+  },
+  {
+    "question": "Nếu một khu vực không có côn trùng thụ phấn, điều gì có thể xảy ra?",
+    "options": [
+      "Nhiều cây khó tạo quả và hạt hơn",
+      "Cây phát triển nhanh hơn",
+      "Cây không cần hoa",
+      "Số lượng cây tăng mạnh"
+    ],
+    "answer": "Nhiều cây khó tạo quả và hạt hơn"
   }
 ]
