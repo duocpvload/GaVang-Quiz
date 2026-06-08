@@ -52,6 +52,8 @@ function showQuestion(){
 
         btn.className="answerBtn";
 
+        btn.disabled = false;
+
         btn.innerHTML=q.options[index];
 
         btn.onclick=()=>checkAnswer(
