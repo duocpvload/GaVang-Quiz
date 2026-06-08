@@ -4,7 +4,7 @@ from tkinter import ttk, messagebox
 import json
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = Path(__file__).parent
 
 class QuizApp:
     def __init__(self, root):
