@@ -1,5 +1,185 @@
 [
   {
+    "question": "Từ nào đồng nghĩa với từ 'nhanh nhẹn'?",
+    "options": ["Lanh lợi", "Chậm chạp", "Mệt mỏi", "Yếu ớt"],
+    "answer": "Lanh lợi"
+  },
+  {
+    "question": "Từ nào trái nghĩa với từ 'rộng'?",
+    "options": ["Hẹp", "Dài", "Cao", "Sâu"],
+    "answer": "Hẹp"
+  },
+  {
+    "question": "Từ nào chỉ trạng thái cảm xúc?",
+    "options": ["Lo lắng", "Cây bàng", "Bút chì", "Xe máy"],
+    "answer": "Lo lắng"
+  },
+  {
+    "question": "Trong câu 'Chú gió tinh nghịch chạy khắp cánh đồng', sự vật nào được nhân hóa?",
+    "options": ["Chú gió", "Cánh đồng", "Tinh nghịch", "Khắp"],
+    "answer": "Chú gió"
+  },
+  {
+    "question": "Câu nào sử dụng phép so sánh?",
+    "options": [
+      "Bạn Lan nhanh như sóc.",
+      "Bạn Lan rất nhanh.",
+      "Bạn Lan đang chạy.",
+      "Bạn Lan thích chạy."
+    ],
+    "answer": "Bạn Lan nhanh như sóc."
+  },
+  {
+    "question": "Từ nào viết đúng chính tả?",
+    "options": ["Chia sẻ", "Chia sẽ", "Chya sẻ", "Chia xẻ"],
+    "answer": "Chia sẻ"
+  },
+  {
+    "question": "Từ nào là động từ?",
+    "options": ["Nhảy múa", "Niềm vui", "Mái nhà", "Bầu trời"],
+    "answer": "Nhảy múa"
+  },
+  {
+    "question": "Từ nào là tính từ?",
+    "options": ["Hiền lành", "Học sinh", "Bác sĩ", "Đọc sách"],
+    "answer": "Hiền lành"
+  },
+  {
+    "question": "Từ nào là danh từ?",
+    "options": ["Dòng sông", "Trong xanh", "Bơi lội", "Vui vẻ"],
+    "answer": "Dòng sông"
+  },
+  {
+    "question": "Câu tục ngữ nào khuyên con người học hỏi kinh nghiệm?",
+    "options": [
+      "Đi một ngày đàng học một sàng khôn",
+      "Ăn quả nhớ kẻ trồng cây",
+      "Lá lành đùm lá rách",
+      "Có công mài sắt có ngày nên kim"
+    ],
+    "answer": "Đi một ngày đàng học một sàng khôn"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của chim?",
+    "options": ["Sải cánh", "Tổ chim", "Lông vũ", "Mỏ chim"],
+    "answer": "Sải cánh"
+  },
+  {
+    "question": "Dấu câu nào thường dùng sau lời cảm thán?",
+    "options": ["!", ".", ",", ":"],
+    "answer": "!"
+  },
+  {
+    "question": "Trong câu 'Bố em là kỹ sư', từ nào chỉ nghề nghiệp?",
+    "options": ["Kỹ sư", "Bố", "Em", "Là"],
+    "answer": "Kỹ sư"
+  },
+  {
+    "question": "Từ nào đồng nghĩa với từ 'trung thực'?",
+    "options": ["Thật thà", "Gian dối", "Lười biếng", "Ích kỷ"],
+    "answer": "Thật thà"
+  },
+  {
+    "question": "Từ nào trái nghĩa với từ 'ấm áp'?",
+    "options": ["Lạnh giá", "Dễ chịu", "Thoải mái", "Tươi sáng"],
+    "answer": "Lạnh giá"
+  },
+  {
+    "question": "Đọc câu: 'Nam giúp bà nhặt rau mỗi chiều.' Nam là người như thế nào?",
+    "options": ["Biết giúp đỡ người khác", "Lười biếng", "Nghịch ngợm", "Ích kỷ"],
+    "answer": "Biết giúp đỡ người khác"
+  },
+  {
+    "question": "Từ nào chỉ một hiện tượng thiên nhiên?",
+    "options": ["Cơn mưa", "Quyển vở", "Học sinh", "Xe đạp"],
+    "answer": "Cơn mưa"
+  },
+  {
+    "question": "Từ nào viết đúng chính tả?",
+    "options": ["Giúp đỡ", "Giúp đở", "Dúp đỡ", "Giúp dỡ"],
+    "answer": "Giúp đỡ"
+  },
+  {
+    "question": "Câu nào là câu kể?",
+    "options": [
+      "Hôm nay trời rất đẹp.",
+      "Bạn đi đâu vậy?",
+      "Ôi, đẹp quá!",
+      "Hãy mở cửa ra."
+    ],
+    "answer": "Hôm nay trời rất đẹp."
+  },
+  {
+    "question": "Trong câu 'Những chiếc lá nhảy múa trong gió', hình ảnh nào được nhân hóa?",
+    "options": ["Chiếc lá", "Gió", "Trong", "Những"],
+    "answer": "Chiếc lá"
+  },
+  {
+    "question": "Từ nào thuộc nhóm từ chỉ đức tính tốt?",
+    "options": ["Lễ phép", "Cẩu thả", "Lười biếng", "Ích kỷ"],
+    "answer": "Lễ phép"
+  },
+  {
+    "question": "Từ nào là tên một môn học ở tiểu học?",
+    "options": ["Tự nhiên và Xã hội", "Xe đạp", "Hoa sen", "Cây phượng"],
+    "answer": "Tự nhiên và Xã hội"
+  },
+  {
+    "question": "Câu nào có từ chỉ thời gian?",
+    "options": [
+      "Sáng nay em đi học sớm.",
+      "Em đi học.",
+      "Em chăm học.",
+      "Em rất vui."
+    ],
+    "answer": "Sáng nay em đi học sớm."
+  },
+  {
+    "question": "Từ nào chỉ đặc điểm của con người?",
+    "options": ["Chăm chỉ", "Chạy bộ", "Trường học", "Quyển sách"],
+    "answer": "Chăm chỉ"
+  },
+  {
+    "question": "Câu tục ngữ nào nói về tinh thần tương thân tương ái?",
+    "options": [
+      "Lá lành đùm lá rách",
+      "Có công mài sắt có ngày nên kim",
+      "Đi một ngày đàng học một sàng khôn",
+      "Tốt gỗ hơn tốt nước sơn"
+    ],
+    "answer": "Lá lành đùm lá rách"
+  },
+  {
+    "question": "Từ nào đồng nghĩa với từ 'siêng năng'?",
+    "options": ["Cần cù", "Lười nhác", "Cẩu thả", "Nóng nảy"],
+    "answer": "Cần cù"
+  },
+  {
+    "question": "Từ nào trái nghĩa với từ 'gần'?",
+    "options": ["Xa", "Rộng", "Sâu", "Dài"],
+    "answer": "Xa"
+  },
+  {
+    "question": "Trong câu 'Đàn kiến chăm chỉ tha mồi', từ nào là tính từ?",
+    "options": ["Chăm chỉ", "Đàn kiến", "Tha", "Mồi"],
+    "answer": "Chăm chỉ"
+  },
+  {
+    "question": "Đọc câu: 'Lan luôn chào hỏi người lớn.' Lan có đức tính gì?",
+    "options": ["Lễ phép", "Lười biếng", "Nóng tính", "Bướng bỉnh"],
+    "answer": "Lễ phép"
+  },
+  {
+    "question": "Câu nào sử dụng phép so sánh?",
+    "options": [
+      "Những hạt sương long lanh như ngọc.",
+      "Những hạt sương rất đẹp.",
+      "Những hạt sương xuất hiện.",
+      "Những hạt sương trong veo."
+    ],
+    "answer": "Những hạt sương long lanh như ngọc."
+  },
+  {
     "question": "Từ nào đồng nghĩa với từ 'dũng cảm'?",
     "options": ["Can đảm", "Nhút nhát", "Lười biếng", "Yếu đuối"],
     "answer": "Can đảm"
