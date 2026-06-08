@@ -1,5 +1,280 @@
 [
   {
+    "question": "Từ nào là danh từ?",
+    "options": ["Cây bàng", "Chạy", "Đẹp", "Nhanh"],
+    "answer": "Cây bàng"
+  },
+  {
+    "question": "Từ nào là động từ?",
+    "options": ["Bơi", "Dòng sông", "Hiền lành", "Mái nhà"],
+    "answer": "Bơi"
+  },
+  {
+    "question": "Từ nào là tính từ?",
+    "options": ["Thông minh", "Học sinh", "Đọc sách", "Bác sĩ"],
+    "answer": "Thông minh"
+  },
+  {
+    "question": "Trong câu 'Lan là học sinh giỏi', từ nào là danh từ?",
+    "options": ["Lan", "Là", "Giỏi", "Học"],
+    "answer": "Lan"
+  },
+  {
+    "question": "Trong câu 'Minh đang đọc sách', từ nào là động từ?",
+    "options": ["Đọc", "Minh", "Sách", "Đang"],
+    "answer": "Đọc"
+  },
+  {
+    "question": "Trong câu 'Bạn Nam rất chăm chỉ', từ nào là tính từ?",
+    "options": ["Chăm chỉ", "Nam", "Bạn", "Rất"],
+    "answer": "Chăm chỉ"
+  },
+  {
+    "question": "Câu nào thuộc kiểu câu 'Ai là gì?'",
+    "options": [
+      "Bố em là bác sĩ.",
+      "Bố em đang làm việc.",
+      "Bố em rất hiền.",
+      "Bố em đọc báo."
+    ],
+    "answer": "Bố em là bác sĩ."
+  },
+  {
+    "question": "Câu nào thuộc kiểu câu 'Ai làm gì?'",
+    "options": [
+      "Lan đang tưới cây.",
+      "Lan là lớp trưởng.",
+      "Lan rất ngoan.",
+      "Lan thật chăm chỉ."
+    ],
+    "answer": "Lan đang tưới cây."
+  },
+  {
+    "question": "Câu nào thuộc kiểu câu 'Ai thế nào?'",
+    "options": [
+      "Bạn An rất lễ phép.",
+      "Bạn An là học sinh.",
+      "Bạn An quét lớp.",
+      "Bạn An đọc sách."
+    ],
+    "answer": "Bạn An rất lễ phép."
+  },
+  {
+    "question": "Từ nào chỉ thời gian?",
+    "options": ["Buổi sáng", "Sân trường", "Hoa phượng", "Bảng đen"],
+    "answer": "Buổi sáng"
+  },
+  {
+    "question": "Từ nào chỉ nơi chốn?",
+    "options": ["Thư viện", "Chạy", "Đẹp", "Học tập"],
+    "answer": "Thư viện"
+  },
+  {
+    "question": "Dấu câu nào dùng để kết thúc câu kể?",
+    "options": [".", "?", "!", ":"],
+    "answer": "."
+  },
+  {
+    "question": "Dấu câu nào dùng để kết thúc câu cảm?",
+    "options": ["!", ".", "?", ","],
+    "answer": "!"
+  },
+  {
+    "question": "Dấu câu nào dùng để kết thúc câu hỏi?",
+    "options": ["?", ".", "!", ":"],
+    "answer": "?"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ người?",
+    "options": ["Giáo viên", "Học", "Chăm chỉ", "Chạy"],
+    "answer": "Giáo viên"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ con vật?",
+    "options": ["Con hổ", "Nhanh nhẹn", "Nhảy múa", "Hiền lành"],
+    "answer": "Con hổ"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ đồ vật?",
+    "options": ["Chiếc bàn", "Đẹp", "Đi học", "Vui vẻ"],
+    "answer": "Chiếc bàn"
+  },
+  {
+    "question": "Từ nào là động từ chỉ hoạt động học tập?",
+    "options": ["Ôn bài", "Bảng đen", "Thông minh", "Học sinh"],
+    "answer": "Ôn bài"
+  },
+  {
+    "question": "Từ nào là động từ chỉ hoạt động của cơ thể?",
+    "options": ["Nhảy", "Bàn", "Sân", "Đẹp"],
+    "answer": "Nhảy"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ màu sắc?",
+    "options": ["Xanh biếc", "Hoa sen", "Chạy nhanh", "Buổi sáng"],
+    "answer": "Xanh biếc"
+  },
+  {
+    "question": "Trong câu 'Con mèo đang ngủ', chủ ngữ là gì?",
+    "options": ["Con mèo", "Đang", "Ngủ", "Mèo"],
+    "answer": "Con mèo"
+  },
+  {
+    "question": "Trong câu 'Con mèo đang ngủ', vị ngữ là gì?",
+    "options": ["Đang ngủ", "Con mèo", "Ngủ", "Đang"],
+    "answer": "Đang ngủ"
+  },
+  {
+    "question": "Trong câu 'Bầu trời rất trong xanh', từ nào là tính từ?",
+    "options": ["Trong xanh", "Bầu trời", "Rất", "Trời"],
+    "answer": "Trong xanh"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ hiện tượng thiên nhiên?",
+    "options": ["Cơn mưa", "Đẹp", "Bay", "Chạy"],
+    "answer": "Cơn mưa"
+  },
+  {
+    "question": "Từ nào là động từ?",
+    "options": ["Lắng nghe", "Dòng sông", "Hiền hậu", "Bầu trời"],
+    "answer": "Lắng nghe"
+  },
+  {
+    "question": "Từ nào là tính từ?",
+    "options": ["Dũng cảm", "Bác sĩ", "Đọc sách", "Cây xoài"],
+    "answer": "Dũng cảm"
+  },
+  {
+    "question": "Câu nào là câu hỏi?",
+    "options": [
+      "Bạn có thích đọc sách không?",
+      "Em đang đọc sách.",
+      "Ôi đẹp quá!",
+      "Hãy giữ yên lặng."
+    ],
+    "answer": "Bạn có thích đọc sách không?"
+  },
+  {
+    "question": "Câu nào là câu khiến?",
+    "options": [
+      "Hãy chăm chỉ học tập.",
+      "Em chăm chỉ học tập.",
+      "Em là học sinh.",
+      "Em rất chăm chỉ."
+    ],
+    "answer": "Hãy chăm chỉ học tập."
+  },
+  {
+    "question": "Từ nào chỉ đặc điểm của con người?",
+    "options": ["Trung thực", "Bảng đen", "Đọc sách", "Sân trường"],
+    "answer": "Trung thực"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của chim?",
+    "options": ["Hót", "Tổ chim", "Lông vũ", "Mỏ chim"],
+    "answer": "Hót"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của cá?",
+    "options": ["Bơi", "Vây", "Đuôi", "Mang"],
+    "answer": "Bơi"
+  },
+  {
+    "question": "Từ nào là danh từ riêng?",
+    "options": ["Hà Nội", "Thành phố", "Ngôi nhà", "Dòng sông"],
+    "answer": "Hà Nội"
+  },
+  {
+    "question": "Từ nào là danh từ chung?",
+    "options": ["Học sinh", "Việt Nam", "Hà Nội", "Sông Hồng"],
+    "answer": "Học sinh"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ kích thước?",
+    "options": ["To lớn", "Đọc sách", "Cây bàng", "Trường học"],
+    "answer": "To lớn"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ phẩm chất?",
+    "options": ["Chăm chỉ", "Học bài", "Giáo viên", "Cặp sách"],
+    "answer": "Chăm chỉ"
+  },
+  {
+    "question": "Trong câu 'Bé Hoa chăm chỉ học bài', từ nào là động từ?",
+    "options": ["Học", "Hoa", "Chăm chỉ", "Bé"],
+    "answer": "Học"
+  },
+  {
+    "question": "Trong câu 'Cây phượng rất cao', từ nào là tính từ?",
+    "options": ["Cao", "Cây phượng", "Rất", "Phượng"],
+    "answer": "Cao"
+  },
+  {
+    "question": "Trong câu 'Nam là lớp trưởng', chủ ngữ là gì?",
+    "options": ["Nam", "Lớp trưởng", "Là", "Trưởng"],
+    "answer": "Nam"
+  },
+  {
+    "question": "Trong câu 'Nam là lớp trưởng', vị ngữ là gì?",
+    "options": ["Là lớp trưởng", "Nam", "Lớp trưởng", "Là"],
+    "answer": "Là lớp trưởng"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ đồ dùng học tập?",
+    "options": ["Thước kẻ", "Nhanh nhẹn", "Đọc", "Chạy"],
+    "answer": "Thước kẻ"
+  },
+  {
+    "question": "Từ nào là động từ chỉ hoạt động lao động?",
+    "options": ["Trồng cây", "Hoa hồng", "Khu vườn", "Màu xanh"],
+    "answer": "Trồng cây"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ âm thanh?",
+    "options": ["Rộn ràng", "Đọc sách", "Học sinh", "Sân trường"],
+    "answer": "Rộn ràng"
+  },
+  {
+    "question": "Từ nào chỉ thời tiết?",
+    "options": ["Nắng", "Bảng", "Vở", "Bút"],
+    "answer": "Nắng"
+  },
+  {
+    "question": "Từ nào là động từ chỉ hoạt động giao tiếp?",
+    "options": ["Trò chuyện", "Ngôi nhà", "Thông minh", "Dũng cảm"],
+    "answer": "Trò chuyện"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ cảm xúc?",
+    "options": ["Hạnh phúc", "Cây xoài", "Đọc sách", "Học sinh"],
+    "answer": "Hạnh phúc"
+  },
+  {
+    "question": "Từ nào là danh từ chỉ địa danh?",
+    "options": ["Đà Nẵng", "Thành phố", "Ngôi trường", "Dòng sông"],
+    "answer": "Đà Nẵng"
+  },
+  {
+    "question": "Từ nào là động từ chỉ hoạt động thể thao?",
+    "options": ["Đá bóng", "Sân cỏ", "Quả bóng", "Khỏe mạnh"],
+    "answer": "Đá bóng"
+  },
+  {
+    "question": "Từ nào là tính từ chỉ tính cách?",
+    "options": ["Tốt bụng", "Học sinh", "Đọc sách", "Cây bàng"],
+    "answer": "Tốt bụng"
+  },
+  {
+    "question": "Trong câu 'Chúng em giữ gìn vệ sinh lớp học', động từ là gì?",
+    "options": ["Giữ gìn", "Chúng em", "Vệ sinh", "Lớp học"],
+    "answer": "Giữ gìn"
+  },
+  {
+    "question": "Trong câu 'Dòng sông quê em rất hiền hòa', tính từ là gì?",
+    "options": ["Hiền hòa", "Dòng sông", "Quê em", "Rất"],
+    "answer": "Hiền hòa"
+  },
+  {
     "question": "Từ nào đồng nghĩa với từ 'nhanh nhẹn'?",
     "options": ["Lanh lợi", "Chậm chạp", "Mệt mỏi", "Yếu ớt"],
     "answer": "Lanh lợi"
