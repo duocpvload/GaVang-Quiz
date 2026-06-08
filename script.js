@@ -1,6 +1,7 @@
 let questions = [];
 let current = 0;
 let score = 0;
+let startTime = 0;
 
 function shuffle(array){
     for(let i = array.length - 1; i > 0; i--){
@@ -38,6 +39,7 @@ async function loadQuiz(subject, grade){
 
     current = 0;
     score = 0;
+    startTime = Date.now();
 
     document.getElementById("menu").style.display="none";
     document.getElementById("quiz").style.display="block";
