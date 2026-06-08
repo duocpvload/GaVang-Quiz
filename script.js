@@ -110,7 +110,15 @@ function checkAnswer(selected, answer){
             }
         });
 
-        document.getElementById("result").innerHTML=
+
+const totalSeconds =
+    Math.floor((Date.now() - startTime) / 1000);
+
+const minutes =
+    Math.floor(totalSeconds / 60);
+
+const seconds =
+    totalSeconds % 60;        document.getElementById("result").innerHTML=
             `❌ Sai<br>Đáp án đúng: ${answer}`;
     }
 
@@ -123,6 +131,7 @@ function checkAnswer(selected, answer){
             document.getElementById("quiz").innerHTML=`
             <h2>Hoàn thành!</h2>
             <h1>${score}/${questions.length}</h1>
+            <p>⏱️ Thời gian: ${minutes} phút ${seconds} giây</p>
             <button onclick="location.reload()">
                 Chơi lại
             </button>
