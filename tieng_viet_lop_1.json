@@ -1,52 +1,252 @@
 [
   {
     "question": "Từ nào là tên con vật?",
-    "options": [
-      "Con mèo",
-      "Cái bàn",
-      "Ngôi nhà",
-      "Cây bút"
-    ],
+    "options": ["Con mèo", "Cái bàn", "Cây bút", "Ngôi nhà"],
     "answer": "Con mèo"
   },
   {
-    "question": "Chọn từ viết đúng chính tả",
-    "options": [
-      "chăm chỉ",
-      "chăm trỉ",
-      "xăm chỉ",
-      "xăm trỉ"
-    ],
-    "answer": "chăm chỉ"
+    "question": "Từ nào là tên đồ dùng học tập?",
+    "options": ["Cây bút", "Con chó", "Quả cam", "Dòng sông"],
+    "answer": "Cây bút"
+  },
+  {
+    "question": "Từ nào là tên một loại quả?",
+    "options": ["Quả xoài", "Con gà", "Cái ghế", "Ngôi trường"],
+    "answer": "Quả xoài"
+  },
+  {
+    "question": "Trong các từ sau, từ nào chỉ người?",
+    "options": ["Học sinh", "Con mèo", "Cây phượng", "Quyển sách"],
+    "answer": "Học sinh"
   },
   {
     "question": "Từ nào chỉ hoạt động?",
-    "options": [
-      "chạy",
-      "cây",
-      "bút",
-      "đẹp"
-    ],
-    "answer": "chạy"
+    "options": ["Chạy", "Bàn", "Táo", "Nhà"],
+    "answer": "Chạy"
   },
   {
-    "question": "Từ nào là tính từ?",
-    "options": [
-      "đẹp",
-      "ăn",
-      "bàn",
-      "xe"
-    ],
-    "answer": "đẹp"
+    "question": "Từ nào chỉ đặc điểm?",
+    "options": ["Đẹp", "Bút", "Mèo", "Trường"],
+    "answer": "Đẹp"
   },
   {
-    "question": "Dấu kết thúc câu hỏi là gì?",
-    "options": [
-      "?",
-      "!",
-      ".",
-      ","
-    ],
-    "answer": "?"
+    "question": "Chữ cái nào đứng đầu bảng chữ cái tiếng Việt?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A"
+  },
+  {
+    "question": "Từ nào bắt đầu bằng chữ M?",
+    "options": ["Mèo", "Táo", "Bút", "Nhà"],
+    "answer": "Mèo"
+  },
+  {
+    "question": "Từ nào là tên một loài cây?",
+    "options": ["Cây phượng", "Con cá", "Quyển vở", "Cái cặp"],
+    "answer": "Cây phượng"
+  },
+  {
+    "question": "Từ nào là tên một loài chim?",
+    "options": ["Chim sẻ", "Cây xoài", "Bàn học", "Xe đạp"],
+    "answer": "Chim sẻ"
+  },
+  {
+    "question": "Câu nào có dấu chấm ở cuối?",
+    "options": ["Em đi học.", "Em đi học?", "Em đi học!", "Em đi học,"],
+    "answer": "Em đi học."
+  },
+  {
+    "question": "Câu nào là câu hỏi?",
+    "options": ["Bạn tên là gì?", "Em đi học.", "Ôi đẹp quá!", "Con mèo ngủ."],
+    "answer": "Bạn tên là gì?"
+  },
+  {
+    "question": "Từ nào viết đúng chính tả?",
+    "options": ["Trường học", "Chường học", "Trườn học", "Trương học"],
+    "answer": "Trường học"
+  },
+  {
+    "question": "Từ nào có tiếng 'học'?",
+    "options": ["Học sinh", "Con mèo", "Cây xoài", "Xe đạp"],
+    "answer": "Học sinh"
+  },
+  {
+    "question": "Từ nào chỉ đồ vật trong lớp học?",
+    "options": ["Bảng", "Cá", "Gà", "Cam"],
+    "answer": "Bảng"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của học sinh?",
+    "options": ["Đọc sách", "Bàn học", "Sân trường", "Cây bàng"],
+    "answer": "Đọc sách"
+  },
+  {
+    "question": "Từ nào là tên bộ phận cơ thể?",
+    "options": ["Đôi mắt", "Quyển sách", "Cây bút", "Con cá"],
+    "answer": "Đôi mắt"
+  },
+  {
+    "question": "Từ nào chỉ màu sắc?",
+    "options": ["Đỏ", "Bút", "Mèo", "Nhà"],
+    "answer": "Đỏ"
+  },
+  {
+    "question": "Từ nào là tên một loại hoa?",
+    "options": ["Hoa hồng", "Con vịt", "Xe đạp", "Cái bàn"],
+    "answer": "Hoa hồng"
+  },
+  {
+    "question": "Từ nào chỉ người trong gia đình?",
+    "options": ["Mẹ", "Bàn", "Cây", "Chó"],
+    "answer": "Mẹ"
+  },
+  {
+    "question": "Từ nào bắt đầu bằng chữ B?",
+    "options": ["Bút", "Mèo", "Táo", "Cá"],
+    "answer": "Bút"
+  },
+  {
+    "question": "Từ nào có 2 tiếng?",
+    "options": ["Học sinh", "Bút", "Táo", "Nhà"],
+    "answer": "Học sinh"
+  },
+  {
+    "question": "Con vật nào biết bơi?",
+    "options": ["Cá", "Bàn", "Bút", "Nhà"],
+    "answer": "Cá"
+  },
+  {
+    "question": "Từ nào là tên phương tiện giao thông?",
+    "options": ["Xe đạp", "Hoa hồng", "Con mèo", "Cây xoài"],
+    "answer": "Xe đạp"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động ngoài trời?",
+    "options": ["Chơi", "Bút", "Ghế", "Cặp"],
+    "answer": "Chơi"
+  },
+  {
+    "question": "Từ nào chỉ nơi học tập?",
+    "options": ["Trường học", "Ao cá", "Vườn cây", "Bến xe"],
+    "answer": "Trường học"
+  },
+  {
+    "question": "Từ nào là tên loài vật nuôi trong nhà?",
+    "options": ["Con chó", "Cây bàng", "Bàn học", "Quả cam"],
+    "answer": "Con chó"
+  },
+  {
+    "question": "Từ nào chỉ đồ dùng để viết?",
+    "options": ["Bút chì", "Con cá", "Hoa sen", "Xe đạp"],
+    "answer": "Bút chì"
+  },
+  {
+    "question": "Từ nào là tên một loại rau?",
+    "options": ["Rau muống", "Con gà", "Cái ghế", "Bút mực"],
+    "answer": "Rau muống"
+  },
+  {
+    "question": "Từ nào có nghĩa gần với 'vui'?",
+    "options": ["Mừng", "Buồn", "Ngủ", "Đi"],
+    "answer": "Mừng"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của chim?",
+    "options": ["Bay", "Ngủ", "Đứng", "Đọc"],
+    "answer": "Bay"
+  },
+  {
+    "question": "Từ nào là tên một mùa trong năm?",
+    "options": ["Mùa xuân", "Bút chì", "Con mèo", "Cây xoài"],
+    "answer": "Mùa xuân"
+  },
+  {
+    "question": "Từ nào là tên một ngày trong tuần?",
+    "options": ["Thứ Hai", "Tháng Ba", "Mùa Hạ", "Buổi sáng"],
+    "answer": "Thứ Hai"
+  },
+  {
+    "question": "Từ nào chỉ thời gian trong ngày?",
+    "options": ["Buổi sáng", "Con cá", "Cây phượng", "Xe đạp"],
+    "answer": "Buổi sáng"
+  },
+  {
+    "question": "Từ nào là tên một đồ vật trong gia đình?",
+    "options": ["Tủ lạnh", "Con gà", "Hoa sen", "Cây xoài"],
+    "answer": "Tủ lạnh"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động học tập?",
+    "options": ["Viết bài", "Ngủ", "Ăn cơm", "Chạy bộ"],
+    "answer": "Viết bài"
+  },
+  {
+    "question": "Từ nào là tên một loại quả có màu vàng?",
+    "options": ["Chuối", "Bàn", "Bút", "Ghế"],
+    "answer": "Chuối"
+  },
+  {
+    "question": "Từ nào là tên một loài cá?",
+    "options": ["Cá chép", "Cây bàng", "Xe đạp", "Hoa hồng"],
+    "answer": "Cá chép"
+  },
+  {
+    "question": "Từ nào chỉ cảm xúc?",
+    "options": ["Vui vẻ", "Cái bàn", "Con mèo", "Bút chì"],
+    "answer": "Vui vẻ"
+  },
+  {
+    "question": "Từ nào là tên một đồ dùng trong lớp học?",
+    "options": ["Thước kẻ", "Con cá", "Quả cam", "Hoa sen"],
+    "answer": "Thước kẻ"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của tay?",
+    "options": ["Vẫy", "Bay", "Bơi", "Hót"],
+    "answer": "Vẫy"
+  },
+  {
+    "question": "Từ nào là tên một loại hoa?",
+    "options": ["Hoa sen", "Con mèo", "Bút mực", "Xe đạp"],
+    "answer": "Hoa sen"
+  },
+  {
+    "question": "Từ nào là tên một môn học?",
+    "options": ["Tiếng Việt", "Cây xoài", "Con chó", "Tủ lạnh"],
+    "answer": "Tiếng Việt"
+  },
+  {
+    "question": "Từ nào là tên một bộ phận của cây?",
+    "options": ["Lá", "Bút", "Ghế", "Cặp"],
+    "answer": "Lá"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của cá?",
+    "options": ["Bơi", "Bay", "Chạy", "Nhảy dây"],
+    "answer": "Bơi"
+  },
+  {
+    "question": "Từ nào là tên một loại đồ uống?",
+    "options": ["Sữa", "Bút", "Bàn", "Xe đạp"],
+    "answer": "Sữa"
+  },
+  {
+    "question": "Từ nào là tên một người thân?",
+    "options": ["Ông", "Bảng", "Mực", "Hoa"],
+    "answer": "Ông"
+  },
+  {
+    "question": "Từ nào là tên một vật nuôi?",
+    "options": ["Con vịt", "Cây bút", "Cái ghế", "Ngôi nhà"],
+    "answer": "Con vịt"
+  },
+  {
+    "question": "Từ nào là tên một loại cây ăn quả?",
+    "options": ["Cây xoài", "Con mèo", "Bút chì", "Xe đạp"],
+    "answer": "Cây xoài"
+  },
+  {
+    "question": "Từ nào chỉ hoạt động của học sinh trong giờ học?",
+    "options": ["Nghe giảng", "Đá bóng", "Bơi lội", "Ngủ trưa"],
+    "answer": "Nghe giảng"
   }
 ]
