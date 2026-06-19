@@ -29,7 +29,12 @@ async function loadQuiz(subject, grade){
 
     const file = `${subject}_lop_${grade}.json`;
 
-    const response = await fetch(file);
+    const response = await fetch(
+    `${filename}?v=${Date.now()}`,
+    {
+        cache: "no-store"
+    }
+);
 
     questions = await response.json();
 
