@@ -97,29 +97,18 @@ async function startQuiz(){
 }
 
 function showQuestion(){
-
     const q = questions[current];
     shuffle(q.options);
-
     document.getElementById("progress").innerHTML =
         `Câu ${current+1}/${questions.length}`;
-
     document.getElementById("question").innerHTML =
         q.question;
-
     document.getElementById("result").innerHTML = "";
-
-    const buttons =
-        document.querySelectorAll(".answerBtn");
-
+    const buttons =        document.querySelectorAll(".answerBtn");
     buttons.forEach((btn,index)=>{
-
         btn.className="answerBtn";
-
         btn.disabled = false;
-
         btn.innerHTML=q.options[index];
-
         btn.onclick=()=>checkAnswer(
             q.options[index],
             q.answer
@@ -128,28 +117,19 @@ function showQuestion(){
 }
 
 function checkAnswer(selected, answer){
-
-    const buttons =
-        document.querySelectorAll(".answerBtn");
-
+    const buttons =        document.querySelectorAll(".answerBtn");
     buttons.forEach(btn=>btn.disabled=true);
-
     if(selected===answer){
-
         score++;
-
         buttons.forEach(btn=>{
             if(btn.innerHTML===answer){
                 btn.classList.add("correct");
             }
         });
-
         document.getElementById("result").innerHTML="✅ Đúng";
     }
     else{
-
         buttons.forEach(btn=>{
-
             if(btn.innerHTML===selected){
                 btn.classList.add("wrong");
             }
@@ -163,11 +143,8 @@ function checkAnswer(selected, answer){
     }
 
     setTimeout(()=>{
-
         current++;
-
         if(current>=questions.length){
-
             document.getElementById("quiz").innerHTML=`
             <h2>Hoàn thành!</h2>
             <h1>${score}/${questions.length}</h1>
@@ -179,6 +156,5 @@ function checkAnswer(selected, answer){
         else{
             showQuestion();
         }
-
     },1500);
 }
