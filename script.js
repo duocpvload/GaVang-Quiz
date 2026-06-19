@@ -2,6 +2,9 @@ let questions = [];
 let current = 0;
 let score = 0;
 let startTime = 0;
+let currentSubject = "";
+let currentGrade = "";
+let playerName = "";
 
 function shuffle(array){
     for(let i = array.length - 1; i > 0; i--){
@@ -51,29 +54,45 @@ async function chooseSubject(subject){
 }
 
 async function loadQuiz(subject, grade){
+    currentSubject = subject;
+    currentGrade = grade;
+    document.getElementById("gradeArea").innerHTML = "";
+document.getElementById("playerArea").style.display =
+        "block"; document.getElementById("startQuizBtn").onclick =
+        () => startQuiz();
+}
 
-    const file = `${subject}_lop_${grade}.json`;
+async function startQuiz(){
+    playerName =
+        document.getElementById("playerName")
+        .value
+        .trim();
+
+    if(!playerName){
+        alert("Nhập tên trước nhé");
+        return;
+    }
+
+    const file =
+        `${currentSubject}_lop_${currentGrade}.json`;
 
     const response = await fetch(
-    `${file}?v=${Date.now()}`,
-    {
-        cache: "no-store"
-    }
-);
+        `${file}?v=${Date.now()}`,
+        {
+            cache:"no-store"
+        }
+    );
 
     questions = await response.json();
-
     shuffle(questions);
-
-    questions = questions.slice(0, 20);
+    questions = questions.slice(0,20);
 
     current = 0;
     score = 0;
     startTime = Date.now();
-
-    document.getElementById("menu").style.display="none";
-    document.getElementById("quiz").style.display="block";
-
+    document.getElementById("playerArea").style.display =
+        "none";
+    document.getElementById("menu").style.display = "none";   document.getElementById("quiz").style.display =        "block";
     showQuestion();
 }
 
