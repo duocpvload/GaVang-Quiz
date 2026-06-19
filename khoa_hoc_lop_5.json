@@ -113,9 +113,9 @@
     "question": "Nếu chặt hết cây trên một sườn đồi, điều gì dễ xảy ra khi mưa lớn?",
     "options": [
       "Xói mòn đất",
-      "Đất màu mỡ hơn ngay",
+      "Con người không có chỗ trú mưa",
       "Mưa ngừng rơi",
-      "Sông biến mất"
+      "Cây non dễ mọc trở lại"
     ],
     "answer": "Xói mòn đất"
   },
@@ -154,7 +154,7 @@
     "options": [
       "Cơ thể cố tạo thêm nhiệt",
       "Cơ thể muốn ngủ",
-      "Do thiếu nước",
+      "Cơ thể thiếu nước",
       "Do tim ngừng hoạt động"
     ],
     "answer": "Cơ thể cố tạo thêm nhiệt"
@@ -193,9 +193,9 @@
     "question": "Nếu một hồ nước bị ô nhiễm nặng, sinh vật nào thường bị ảnh hưởng đầu tiên?",
     "options": [
       "Các sinh vật sống trong hồ",
-      "Mặt Trời",
-      "Mây",
-      "Không khí tầng cao"
+      "Con người sống gần hồ",
+      "Những đám mây",
+      "Không khí bên trên hồ"
     ],
     "answer": "Các sinh vật sống trong hồ"
   }
