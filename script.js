@@ -142,19 +142,34 @@ function checkAnswer(selected, answer){
             `❌ Sai<br>Đáp án đúng: ${answer}`;
     }
 
-    setTimeout(()=>{
-        current++;
-        if(current>=questions.length){
-            document.getElementById("quiz").innerHTML=`
-            <h2>Hoàn thành!</h2>
-            <h1>${score}/${questions.length}</h1>
-            <button onclick="location.reload()">
-                Chơi lại
-            </button>
-            `;
-        }
-        else{
-            showQuestion();
-        }
-    },1500);
+  setTimeout(()=>{
+    current++;
+    if(current>=questions.length){
+        const totalSeconds =
+            Math.floor(
+                (Date.now()-startTime)/1000
+            );
+        const minutes =
+            Math.floor(totalSeconds/60);
+        const seconds =
+            totalSeconds%60;
+        document.getElementById("quiz").innerHTML=`
+        <h2>🎉 Hoàn thành!</h2>
+        <p><b>👤 Người chơi:</b> ${playerName}</p>
+        <p><b>📚 Môn học:</b> ${currentSubject}</p>
+        <p><b>🏫 Lớp:</b> ${currentGrade}</p>
+        <h1>🏆 ${score}/${questions.length}</h1>
+        <p>
+        ⏱️ Thời gian:
+        ${minutes} phút ${seconds} giây
+        </p>
+        <button onclick="location.reload()">
+            Chơi lại
+        </button>
+        `;
+    }
+    else{
+        showQuestion();
+    }
+  },1500);
 }
