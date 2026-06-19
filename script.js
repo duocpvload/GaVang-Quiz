@@ -11,15 +11,55 @@ function shuffle(array){
     console.log("Shuffled");
 }
 
-function chooseSubject(subject){
+async function chooseSubject(subject){
 
     let html = "<h2>Chọn lớp</h2>";
 
-    for(let i=1;i<=5;i++){
-        html += `
-        <button onclick="loadQuiz('${subject}',${i})">
-        Lớp ${i}
-        </button>`;
+    try{
+
+        const response = await fetch(
+            "https://api.github.com/repos/duocpvload/GaVang-Quiz/contents",
+            {
+                cache: "no-store"
+            }
+        );
+
+        const files = await response.json();
+
+        const grades = [];
+
+        files.forEach(file => {
+
+            const regex =
+                new RegExp(`^${subject}_lop_(\\d+)\\.json$`);
+
+            const match = file.name.match(regex);
+
+            if(match){
+                grades.push(parseInt(match[1]));
+            }
+        });
+
+        grades.sort((a,b)=>a-b);
+
+        grades.forEach(grade => {
+
+            html += `
+            <button onclick="loadQuiz('${subject}',${grade})">
+                Lớp ${grade}
+            </button>
+            `;
+        });
+
+        if(grades.length === 0){
+            html += "<p>Chưa có bộ đề.</p>";
+        }
+
+    }catch(error){
+
+        console.error(error);
+
+        html += "<p>Lỗi đọc danh sách đề.</p>";
     }
 
     document.getElementById("gradeArea").innerHTML = html;
