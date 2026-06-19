@@ -192,6 +192,7 @@ setTimeout(()=>{
     }
 
 },1500);
+}
 
 async function saveResult(score, totalSeconds){
     const data = {
