@@ -30,7 +30,7 @@ async function loadQuiz(subject, grade){
     const file = `${subject}_lop_${grade}.json`;
 
     const response = await fetch(
-    `${filename}?v=${Date.now()}`,
+    `${file}?v=${Date.now()}`,
     {
         cache: "no-store"
     }
