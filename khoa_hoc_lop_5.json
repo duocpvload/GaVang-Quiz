@@ -1,232 +1,202 @@
 [
   {
-    "question": "Vì sao chúng ta nhìn thấy Mặt Trăng vào ban đêm?",
+    "question": "Một cây được đặt trong phòng tối hoàn toàn và chỉ tưới nước đầy đủ. Sau nhiều ngày, điều gì có khả năng xảy ra nhất?",
     "options": [
-      "Mặt Trăng phản chiếu ánh sáng Mặt Trời",
-      "Mặt Trăng tự phát sáng",
-      "Mặt Trăng phát ra điện",
-      "Mặt Trăng chứa lửa"
-    ],
-    "answer": "Mặt Trăng phản chiếu ánh sáng Mặt Trời"
-  },
-  {
-    "question": "Trong các vật sau, vật nào dẫn điện tốt nhất?",
-    "options": ["Dây đồng", "Gỗ khô", "Nhựa", "Cao su"],
-    "answer": "Dây đồng"
-  },
-  {
-    "question": "Nếu cây bị đặt trong bóng tối nhiều ngày, điều gì dễ xảy ra nhất?",
-    "options": [
-      "Cây yếu dần và có thể chết",
+      "Cây yếu dần rồi chết",
       "Cây phát triển nhanh hơn",
       "Cây ra nhiều hoa hơn",
       "Cây không thay đổi"
     ],
-    "answer": "Cây yếu dần và có thể chết"
+    "answer": "Cây yếu dần rồi chết"
   },
   {
-    "question": "Cơ quan nào lọc máu và tạo nước tiểu?",
-    "options": ["Thận", "Tim", "Phổi", "Gan"],
-    "answer": "Thận"
-  },
-  {
-    "question": "Tại sao phải đun sôi nước trước khi uống?",
+    "question": "Nếu toàn bộ ong trên Trái Đất biến mất, điều gì sẽ bị ảnh hưởng nhiều nhất?",
     "options": [
-      "Để tiêu diệt nhiều vi khuẩn có hại",
-      "Để nước ngọt hơn",
-      "Để tăng lượng ô-xi",
-      "Để nước có màu đẹp hơn"
+      "Nhiều loài cây khó tạo quả và hạt",
+      "Ngày đêm ngắn hơn",
+      "Nhiệt độ Mặt Trời giảm",
+      "Nước biển cạn dần"
     ],
-    "answer": "Để tiêu diệt nhiều vi khuẩn có hại"
+    "answer": "Nhiều loài cây khó tạo quả và hạt"
   },
   {
-    "question": "Nguồn năng lượng nào là năng lượng tái tạo?",
-    "options": ["Năng lượng Mặt Trời", "Than đá", "Dầu mỏ", "Khí đốt"],
-    "answer": "Năng lượng Mặt Trời"
-  },
-  {
-    "question": "Động vật nào dưới đây là động vật có vú?",
-    "options": ["Cá voi", "Cá mập", "Cá chép", "Cá ngừ"],
-    "answer": "Cá voi"
-  },
-  {
-    "question": "Máu có màu đỏ chủ yếu do chất nào?",
-    "options": ["Huyết sắc tố", "Canxi", "Tinh bột", "Vitamin C"],
-    "answer": "Huyết sắc tố"
-  },
-  {
-    "question": "Khi chạy nhanh, nhịp tim thường như thế nào?",
+    "question": "Hai cốc nước giống hệt nhau. Một cốc đặt ngoài nắng, một cốc đặt trong bóng râm. Cốc nào bay hơi nhanh hơn?",
     "options": [
-      "Đập nhanh hơn",
-      "Đập chậm hơn",
-      "Ngừng đập",
-      "Không thay đổi"
+      "Cốc ngoài nắng",
+      "Cốc trong bóng râm",
+      "Hai cốc như nhau",
+      "Không xác định được"
     ],
-    "answer": "Đập nhanh hơn"
+    "answer": "Cốc ngoài nắng"
   },
   {
-    "question": "Trái Đất quay quanh Mặt Trời mất khoảng bao lâu?",
-    "options": ["365 ngày", "30 ngày", "7 ngày", "24 giờ"],
-    "answer": "365 ngày"
-  },
-  {
-    "question": "Hiện tượng ngày và đêm xảy ra do đâu?",
+    "question": "Nếu Trái Đất ngừng tự quay quanh trục nhưng vẫn quay quanh Mặt Trời, điều gì sẽ mất đi?",
     "options": [
-      "Trái Đất tự quay quanh trục",
-      "Mặt Trăng quay quanh Trái Đất",
-      "Mặt Trời quay quanh Trái Đất",
-      "Mây che ánh sáng"
+      "Hiện tượng ngày và đêm luân phiên",
+      "Các mùa trong năm",
+      "Lực hấp dẫn",
+      "Khí quyển"
     ],
-    "answer": "Trái Đất tự quay quanh trục"
+    "answer": "Hiện tượng ngày và đêm luân phiên"
   },
   {
-    "question": "Loại đất nào thường thích hợp cho nhiều loại cây trồng?",
-    "options": ["Đất màu", "Đất đá", "Đất sỏi", "Đất cát khô"],
-    "answer": "Đất màu"
-  },
-  {
-    "question": "Trong chuỗi thức ăn, cây xanh được gọi là gì?",
-    "options": ["Sinh vật sản xuất", "Sinh vật tiêu thụ", "Động vật ăn thịt", "Vi sinh vật"],
-    "answer": "Sinh vật sản xuất"
-  },
-  {
-    "question": "Bộ phận nào của cây hấp thụ nước và muối khoáng?",
-    "options": ["Rễ", "Lá", "Hoa", "Quả"],
-    "answer": "Rễ"
-  },
-  {
-    "question": "Nếu chặt phá rừng quá mức, hậu quả nào dễ xảy ra?",
+    "question": "Vì sao mặc áo màu sáng vào mùa hè thường mát hơn áo màu tối?",
     "options": [
-      "Lũ lụt và xói mòn đất",
-      "Tăng diện tích rừng",
-      "Tăng số lượng động vật",
-      "Không ảnh hưởng gì"
+      "Áo sáng hấp thụ ít nhiệt hơn",
+      "Áo sáng nặng hơn",
+      "Áo sáng giữ gió tốt hơn",
+      "Áo sáng tạo ra nước"
     ],
-    "answer": "Lũ lụt và xói mòn đất"
+    "answer": "Áo sáng hấp thụ ít nhiệt hơn"
   },
   {
-    "question": "Kim loại nào thường được dùng làm dây điện?",
-    "options": ["Đồng", "Đá", "Gỗ", "Thủy tinh"],
-    "answer": "Đồng"
-  },
-  {
-    "question": "Con người cần ăn uống đầy đủ để làm gì?",
+    "question": "Trong chuỗi thức ăn: Cỏ → Châu chấu → Ếch → Rắn. Nếu số lượng ếch giảm mạnh thì điều gì có khả năng xảy ra?",
     "options": [
-      "Cung cấp năng lượng và chất dinh dưỡng",
-      "Làm tăng chiều cao ngay lập tức",
-      "Không cần ngủ",
-      "Không cần vận động"
+      "Châu chấu tăng lên",
+      "Cỏ biến mất ngay",
+      "Rắn tăng mạnh",
+      "Ếch tăng lên"
     ],
-    "answer": "Cung cấp năng lượng và chất dinh dưỡng"
+    "answer": "Châu chấu tăng lên"
   },
   {
-    "question": "Khi trời nóng, cơ thể tiết mồ hôi chủ yếu để làm gì?",
+    "question": "Một người chạy liên tục 500m. Cơ quan nào phải hoạt động mạnh hơn bình thường?",
     "options": [
-      "Giúp làm mát cơ thể",
-      "Tăng cân",
-      "Tăng chiều cao",
-      "Làm khô da"
+      "Tim và phổi",
+      "Gan và thận",
+      "Dạ dày và ruột",
+      "Tai và mắt"
     ],
-    "answer": "Giúp làm mát cơ thể"
+    "answer": "Tim và phổi"
   },
   {
-    "question": "Loài nào sau đây đẻ con?",
-    "options": ["Dơi", "Gà", "Cá chép", "Rùa"],
-    "answer": "Dơi"
-  },
-  {
-    "question": "Thực phẩm nào chứa nhiều chất đạm nhất?",
-    "options": ["Thịt cá", "Đường", "Muối", "Nước lọc"],
-    "answer": "Thịt cá"
-  },
-  {
-    "question": "Ánh sáng truyền đi nhanh hơn âm thanh hay chậm hơn?",
+    "question": "Nếu không có cây xanh trên Trái Đất, điều gì xảy ra trước tiên?",
     "options": [
-      "Nhanh hơn",
-      "Chậm hơn",
-      "Bằng nhau",
+      "Nguồn ô-xi giảm dần",
+      "Mặt Trăng biến mất",
+      "Biển chuyển thành nước ngọt",
+      "Ngày dài hơn"
+    ],
+    "answer": "Nguồn ô-xi giảm dần"
+  },
+  {
+    "question": "Vì sao người ta thường làm cán nồi bằng nhựa hoặc gỗ?",
+    "options": [
+      "Vì chúng dẫn nhiệt kém",
+      "Vì chúng dẫn nhiệt tốt",
+      "Vì chúng nặng hơn",
+      "Vì chúng chống nước"
+    ],
+    "answer": "Vì chúng dẫn nhiệt kém"
+  },
+  {
+    "question": "Nếu một người chỉ ăn bánh kẹo trong thời gian dài, điều gì dễ xảy ra nhất?",
+    "options": [
+      "Thiếu chất dinh dưỡng",
+      "Khỏe mạnh hơn",
+      "Xương chắc hơn",
+      "Tăng sức đề kháng"
+    ],
+    "answer": "Thiếu chất dinh dưỡng"
+  },
+  {
+    "question": "Ban ngày trời có mây đen dày đặc thường mát hơn vì sao?",
+    "options": [
+      "Mây che bớt ánh nắng Mặt Trời",
+      "Mây tạo ra đá lạnh",
+      "Mây hút hết không khí",
+      "Mây làm Trái Đất nhỏ lại"
+    ],
+    "answer": "Mây che bớt ánh nắng Mặt Trời"
+  },
+  {
+    "question": "Nếu chặt hết cây trên một sườn đồi, điều gì dễ xảy ra khi mưa lớn?",
+    "options": [
+      "Xói mòn đất",
+      "Đất màu mỡ hơn ngay",
+      "Mưa ngừng rơi",
+      "Sông biến mất"
+    ],
+    "answer": "Xói mòn đất"
+  },
+  {
+    "question": "Tại sao người ta khuyên không nên nhìn trực tiếp vào Mặt Trời?",
+    "options": [
+      "Có thể gây hại cho mắt",
+      "Làm giảm chiều cao",
+      "Làm mất thính giác",
+      "Làm thay đổi màu da vĩnh viễn"
+    ],
+    "answer": "Có thể gây hại cho mắt"
+  },
+  {
+    "question": "Khi nước đóng băng thành đá, đây là dạng biến đổi gì?",
+    "options": [
+      "Biến đổi vật lí",
+      "Biến đổi hóa học",
+      "Biến đổi sinh học",
+      "Biến đổi nhiệt hạch"
+    ],
+    "answer": "Biến đổi vật lí"
+  },
+  {
+    "question": "Một vật bằng sắt và một vật bằng gỗ cùng kích thước được thả xuống nước. Vật nào dễ chìm hơn?",
+    "options": [
+      "Vật bằng sắt",
+      "Vật bằng gỗ",
+      "Cả hai như nhau",
       "Không xác định"
     ],
-    "answer": "Nhanh hơn"
+    "answer": "Vật bằng sắt"
   },
   {
-    "question": "Vì sao ta thấy tia chớp trước khi nghe tiếng sấm?",
+    "question": "Vì sao khi trời lạnh ta thường run người?",
     "options": [
-      "Ánh sáng truyền nhanh hơn âm thanh",
-      "Sấm xuất hiện sau",
-      "Tai nghe chậm",
-      "Mắt nhìn quá nhanh"
+      "Cơ thể cố tạo thêm nhiệt",
+      "Cơ thể muốn ngủ",
+      "Do thiếu nước",
+      "Do tim ngừng hoạt động"
     ],
-    "answer": "Ánh sáng truyền nhanh hơn âm thanh"
+    "answer": "Cơ thể cố tạo thêm nhiệt"
   },
   {
-    "question": "Nếu không có thực vật xanh, điều gì sẽ bị ảnh hưởng nhiều nhất?",
+    "question": "Nếu tất cả thực vật xanh ngừng quang hợp trong một tháng, điều gì bị ảnh hưởng nghiêm trọng nhất?",
     "options": [
       "Nguồn thức ăn và ô-xi",
-      "Màu sắc bầu trời",
-      "Kích thước Trái Đất",
-      "Độ dài một ngày"
+      "Số giờ trong ngày",
+      "Độ mặn nước biển",
+      "Kích thước Mặt Trăng"
     ],
     "answer": "Nguồn thức ăn và ô-xi"
   },
   {
-    "question": "Bệnh sâu răng thường liên quan nhiều đến việc gì?",
+    "question": "Vì sao tiếng sấm thường đến sau tia chớp?",
     "options": [
-      "Vệ sinh răng miệng kém",
-      "Uống nhiều nước",
-      "Tập thể dục",
-      "Ngủ đủ giấc"
+      "Âm thanh truyền chậm hơn ánh sáng",
+      "Tia chớp chạy nhanh hơn gió",
+      "Sấm xuất hiện muộn hơn",
+      "Tai nghe chậm hơn mắt"
     ],
-    "answer": "Vệ sinh răng miệng kém"
+    "answer": "Âm thanh truyền chậm hơn ánh sáng"
   },
   {
-    "question": "Đâu là ví dụ về biến đổi hóa học?",
+    "question": "Trong các nguồn năng lượng sau, nguồn nào không bị cạn kiệt nhanh?",
     "options": [
-      "Đốt cháy giấy",
-      "Làm tan đá",
-      "Cắt giấy",
-      "Nghiền đường"
+      "Năng lượng Mặt Trời",
+      "Than đá",
+      "Dầu mỏ",
+      "Khí đốt"
     ],
-    "answer": "Đốt cháy giấy"
+    "answer": "Năng lượng Mặt Trời"
   },
   {
-    "question": "Đâu là ví dụ về biến đổi vật lí?",
+    "question": "Nếu một hồ nước bị ô nhiễm nặng, sinh vật nào thường bị ảnh hưởng đầu tiên?",
     "options": [
-      "Nước đá tan thành nước",
-      "Đốt gỗ thành tro",
-      "Sắt bị gỉ",
-      "Nấu chín trứng"
+      "Các sinh vật sống trong hồ",
+      "Mặt Trời",
+      "Mây",
+      "Không khí tầng cao"
     ],
-    "answer": "Nước đá tan thành nước"
-  },
-  {
-    "question": "Trong các hành động sau, hành động nào bảo vệ nguồn nước?",
-    "options": [
-      "Không xả rác xuống sông",
-      "Đổ dầu thải xuống cống",
-      "Vứt pin xuống ao",
-      "Rửa xe trên hồ"
-    ],
-    "answer": "Không xả rác xuống sông"
-  },
-  {
-    "question": "Môi trường sống của cá là gì?",
-    "options": ["Dưới nước", "Trên cây", "Trong hang", "Trên sa mạc"],
-    "answer": "Dưới nước"
-  },
-  {
-    "question": "Để xương chắc khỏe, cơ thể cần bổ sung nhiều chất gì?",
-    "options": ["Canxi", "Đường", "Muối", "Tinh bột"],
-    "answer": "Canxi"
-  },
-  {
-    "question": "Nếu một khu vực không có côn trùng thụ phấn, điều gì có thể xảy ra?",
-    "options": [
-      "Nhiều cây khó tạo quả và hạt hơn",
-      "Cây phát triển nhanh hơn",
-      "Cây không cần hoa",
-      "Số lượng cây tăng mạnh"
-    ],
-    "answer": "Nhiều cây khó tạo quả và hạt hơn"
+    "answer": "Các sinh vật sống trong hồ"
   }
 ]
