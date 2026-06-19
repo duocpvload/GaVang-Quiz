@@ -198,5 +198,448 @@
       "Không khí bên trên hồ"
     ],
     "answer": "Các sinh vật sống trong hồ"
+  },
+  {
+    "question": "Một cây được trồng trong chậu đặt cạnh cửa sổ. Mỗi ngày chậu được xoay 180 độ. Sau nhiều tuần, thân cây có xu hướng thế nào?",
+    "options": [
+      "Cong ngoằn ngoèo",
+      "Luôn thẳng đứng",
+      "Nghiêng cố định một phía",
+      "Nằm ngang"
+    ],
+    "answer": "Cong ngoằn ngoèo"
+  },
+  {
+    "question": "Hai cốc nước giống nhau. Một cốc được đặt dưới quạt đang chạy, một cốc đặt trong phòng kín. Cốc nào giảm lượng nước nhanh hơn?",
+    "options": [
+      "Cốc dưới quạt",
+      "Cốc trong phòng kín",
+      "Hai cốc như nhau",
+      "Không xác định"
+    ],
+    "answer": "Cốc dưới quạt"
+  },
+  {
+    "question": "Một khu rừng bị chặt hết cây lớn nhưng cây non vẫn còn. Điều gì xảy ra đầu tiên khi mưa lớn kéo dài?",
+    "options": [
+      "Đất dễ bị rửa trôi hơn",
+      "Sông ngừng chảy",
+      "Nhiệt độ giảm ngay 20°C",
+      "Không có thay đổi"
+    ],
+    "answer": "Đất dễ bị rửa trôi hơn"
+  },
+  {
+    "question": "Nếu một loài côn trùng ăn lá cây biến mất hoàn toàn khỏi hệ sinh thái, điều gì có khả năng xảy ra nhất?",
+    "options": [
+      "Lượng lá cây tăng lên",
+      "Tất cả động vật biến mất",
+      "Đất biến thành cát",
+      "Mưa giảm ngay lập tức"
+    ],
+    "answer": "Lượng lá cây tăng lên"
+  },
+  {
+    "question": "Trong một bình kín chứa cây xanh và một con chuột, điều kiện nào giúp cả hai sống được lâu hơn?",
+    "options": [
+      "Có ánh sáng",
+      "Hoàn toàn tối",
+      "Không có nước",
+      "Không có không khí"
+    ],
+    "answer": "Có ánh sáng"
+  },
+  {
+    "question": "Nếu Mặt Trời đột nhiên không chiếu sáng trong 24 giờ, điều gì xảy ra trước tiên?",
+    "options": [
+      "Trời tối trên nửa Trái Đất đang là ban ngày",
+      "Biển đóng băng hoàn toàn",
+      "Khí quyển biến mất",
+      "Mọi sinh vật chết ngay"
+    ],
+    "answer": "Trời tối trên nửa Trái Đất đang là ban ngày"
+  },
+  {
+    "question": "Một chiếc khăn ướt được phơi ngoài trời. Điều gì làm khăn khô nhanh hơn cả?",
+    "options": [
+      "Có nắng và gió",
+      "Đặt dưới bóng râm của cây",
+      "Đặt khăn trong túi kín",
+      "Đặt khăn trên cành cây"
+    ],
+    "answer": "Có nắng và gió"
+  },
+  {
+    "question": "Một người vừa chạy nhanh 500m. Cơ thể cần điều gì tăng lên để đáp ứng hoạt động đó?",
+    "options": [
+      "Oxy",
+      "Muối ăn",
+      "Canxi",
+      "Vitamin D"
+    ],
+    "answer": "Oxy"
+  },
+  {
+    "question": "Một chiếc thuyền nổi trên nước. Khi chuyển toàn bộ hàng hóa từ thuyền xuống hồ bằng cách ném xuống nước, mực nước hồ sẽ thế nào?",
+    "options": [
+      "Giảm xuống",
+      "Tăng lên",
+      "Không đổi",
+      "Lúc tăng lúc giảm ngẫu nhiên"
+    ],
+    "answer": "Giảm xuống"
+  },
+  {
+    "question": "Tại sao người ta thường mặc áo rộng hơn áo bó sát khi trời nóng?",
+    "options": [
+      "Không khí lưu thông tốt hơn",
+      "Áo rộng tạo thêm oxy",
+      "Áo rộng phản xạ ánh sáng mạnh hơn",
+      "Áo rộng làm giảm trọng lực"
+    ],
+    "answer": "Không khí lưu thông tốt hơn"
+  },
+  {
+    "question": "Nếu tất cả giun đất trong một khu vực biến mất, điều gì dễ xảy ra nhất?",
+    "options": [
+      "Đất kém tơi xốp hơn",
+      "Cây trên đất phát triển tốt hơn",
+      "Gà chết vì thiếu thức ăn",
+      "Cỏ mọc nhanh hơn"
+    ],
+    "answer": "Đất kém tơi xốp hơn"
+  },
+  {
+    "question": "Hai cây giống nhau được tưới cùng lượng nước. Một cây nhận ánh sáng, cây kia không. Cây nào tạo nhiều chất dinh dưỡng hơn?",
+    "options": [
+      "Cây nhận ánh sáng",
+      "Cây không nhận ánh sáng",
+      "Hai cây như nhau",
+      "Không xác định"
+    ],
+    "answer": "Cây nhận ánh sáng"
+  },
+  {
+    "question": "Nếu một hồ nước bị phủ kín mặt bằng bèo dày đặc, điều gì có thể xảy ra với cá?",
+    "options": [
+      "Thiếu oxy hơn",
+      "Có nhiều oxy hơn",
+      "Không thay đổi",
+      "Cá lớn nhanh hơn"
+    ],
+    "answer": "Thiếu oxy hơn"
+  },
+  {
+    "question": "Tại sao khi mở cửa tủ lạnh lâu, căn phòng không thể mát lên nhờ tủ lạnh?",
+    "options": [
+      "Tủ lạnh còn tỏa nhiệt ra ngoài",
+      "Không khí lạnh nặng hơn",
+      "Oxy trong phòng giảm",
+      "Căn phòng quá rộng"
+    ],
+    "answer": "Tủ lạnh còn tỏa nhiệt ra ngoài"
+  },
+  {
+    "question": "Một cây bị cắt hết lá nhưng rễ vẫn nguyên vẹn. Chức năng nào bị ảnh hưởng nhiều nhất?",
+    "options": [
+      "Quang hợp",
+      "Hút nước",
+      "Giữ cây đứng vững",
+      "Hút khoáng"
+    ],
+    "answer": "Quang hợp"
+  },
+  {
+    "question": "Nếu không có vi khuẩn phân hủy trong tự nhiên, điều gì xảy ra sau nhiều năm?",
+    "options": [
+      "Xác sinh vật tích tụ ngày càng nhiều",
+      "Mưa ngừng rơi",
+      "Mặt Trăng biến mất",
+      "Biển trở thành nước ngọt"
+    ],
+    "answer": "Xác sinh vật tích tụ ngày càng nhiều"
+  },
+  {
+    "question": "Một người đứng dưới bóng cây và một người đứng trên nền bê tông giữa trưa. Ai thường cảm thấy mát hơn?",
+    "options": [
+      "Người dưới bóng cây",
+      "Người trên nền bê tông",
+      "Hai người như nhau",
+      "Không xác định"
+    ],
+    "answer": "Người dưới bóng cây"
+  },
+  {
+    "question": "Nếu Trái Đất có khí quyển dày gấp đôi hiện nay, điều gì có khả năng thay đổi nhất?",
+    "options": [
+      "Âm thanh truyền đi xa hơn",
+      "Mặt Trời mọc từ phía Tây",
+      "Ngày dài hơn",
+      "Mặt Trăng sáng hơn"
+    ],
+    "answer": "Âm thanh truyền đi xa hơn"
+  },
+  {
+    "question": "Một chiếc xe đạp để ngoài nắng lâu sẽ nóng lên chủ yếu vì nguyên nhân nào?",
+    "options": [
+      "Hấp thụ năng lượng từ ánh nắng",
+      "Tạo nhiệt từ bên trong",
+      "Hút nhiệt từ mặt đất",
+      "Gió tạo nhiệt"
+    ],
+    "answer": "Hấp thụ năng lượng từ ánh nắng"
+  },
+  {
+    "question": "Nếu mọi đám mây trên Trái Đất biến mất trong một tuần, điều gì dễ nhận thấy nhất?",
+    "options": [
+      "Ban ngày nóng hơn, ban đêm lạnh hơn",
+      "Ngày dài hơn",
+      "Biển cạn nước",
+      "Gió ngừng thổi"
+    ],
+    "answer": "Ban ngày nóng hơn, ban đêm lạnh hơn"
+  },
+  {
+    "question": "Trong chuỗi thức ăn Cỏ → Thỏ → Cáo, nếu số lượng cáo tăng mạnh thì điều gì có khả năng xảy ra trước?",
+    "options": [
+      "Số lượng thỏ giảm",
+      "Số lượng cỏ giảm",
+      "Số lượng cỏ tăng",
+      "Số lượng thỏ tăng"
+    ],
+    "answer": "Số lượng thỏ giảm"
+  },
+  {
+    "question": "Một cốc nước đá được bọc khăn bông dày. Điều gì xảy ra?",
+    "options": [
+      "Đá tan chậm hơn",
+      "Đá tan nhanh hơn",
+      "Đá không tan",
+      "Đá đóng băng thêm"
+    ],
+    "answer": "Đá tan chậm hơn"
+  },
+  {
+    "question": "Nếu chỉ tưới bằng nước muối đậm đặc cho cây trong thời gian dài, điều gì dễ xảy ra nhất?",
+    "options": [
+      "Cây héo dần",
+      "Cây phát triển nhanh",
+      "Cây ra nhiều quả hơn",
+      "Không ảnh hưởng"
+    ],
+    "answer": "Cây héo dần"
+  },
+  {
+    "question": "Tại sao những ngày nhiều mây thường ít chênh lệch nhiệt độ giữa ngày và đêm hơn?",
+    "options": [
+      "Mây giữ lại một phần nhiệt",
+      "Mây tạo ra nhiệt",
+      "Mây ngăn gió hoàn toàn",
+      "Mây làm giảm trọng lực"
+    ],
+    "answer": "Mây giữ lại một phần nhiệt"
+  },
+  {
+    "question": "Nếu toàn bộ động vật ăn cỏ biến mất, sinh vật nào chịu ảnh hưởng trực tiếp nhất?",
+    "options": [
+      "Động vật ăn thịt",
+      "Thực vật",
+      "Vi khuẩn",
+      "Nấm"
+    ],
+    "answer": "Động vật ăn thịt"
+  },
+  {
+    "question": "Một bình nước đầy được để trong ngăn đá. Tại sao không nên đổ đầy tới miệng bình?",
+    "options": [
+      "Nước nở ra khi đóng băng",
+      "Nước co lại khi đóng băng",
+      "Nước tạo khí",
+      "Nước biến thành muối"
+    ],
+    "answer": "Nước nở ra khi đóng băng"
+  },
+  {
+    "question": "Nếu một người bịt kín cả mũi và miệng, cơ quan nào sẽ thiếu oxy đầu tiên?",
+    "options": [
+      "Não",
+      "Da",
+      "Xương",
+      "Móng tay"
+    ],
+    "answer": "Não"
+  },
+  {
+    "question": "Một khu vực có nhiều cây xanh và hồ nước thường có khí hậu như thế nào?",
+    "options": [
+      "Mát hơn",
+      "Nóng hơn nhiều",
+      "Khô hơn",
+      "Không khác biệt"
+    ],
+    "answer": "Mát hơn"
+  },
+  {
+    "question": "Tại sao chim thường đậu trên dây điện mà không bị điện giật?",
+    "options": [
+      "Không tạo thành đường đi của dòng điện qua cơ thể",
+      "Lông chim cách điện hoàn toàn",
+      "Điện không truyền trên dây",
+      "Chim miễn nhiễm với điện"
+    ],
+    "answer": "Không tạo thành đường đi của dòng điện qua cơ thể"
+  },
+
+  {
+    "question": "Nếu một chiếc gương phản chiếu 90% ánh sáng chiếu vào, điều gì xảy ra với 10% còn lại?",
+    "options": [
+      "Bị hấp thụ hoặc tán xạ",
+      "Biến mất",
+      "Biến thành âm thanh",
+      "Biến thành điện"
+    ],
+    "answer": "Bị hấp thụ hoặc tán xạ"
+  },
+  {
+    "question": "Trong một khu rừng, loài nào thường có số lượng lớn nhất?",
+    "options": [
+      "Sinh vật sản xuất",
+      "Động vật ăn thịt",
+      "Động vật ăn thịt đầu bảng",
+      "Động vật lớn nhất"
+    ],
+    "answer": "Sinh vật sản xuất"
+  },
+  {
+    "question": "Nếu Trái Đất không có Mặt Trăng, hiện tượng nào bị ảnh hưởng rõ rệt nhất?",
+    "options": [
+      "Thủy triều",
+      "Mưa",
+      "Gió",
+      "Cầu vồng"
+    ],
+    "answer": "Thủy triều"
+  },
+  {
+    "question": "Tại sao bình giữ nhiệt có lớp chân không ở giữa?",
+    "options": [
+      "Giảm truyền nhiệt",
+      "Tăng trọng lượng",
+      "Tạo áp suất cao",
+      "Làm nước ngọt hơn"
+    ],
+    "answer": "Giảm truyền nhiệt"
+  },
+  {
+    "question": "Nếu cùng một lượng ánh sáng chiếu vào áo trắng và áo đen, áo nào nóng hơn?",
+    "options": [
+      "Áo đen",
+      "Áo trắng",
+      "Như nhau",
+      "Tùy độ dày"
+    ],
+    "answer": "Áo đen"
+  },
+
+  {
+    "question": "Một hồ nước bị ô nhiễm làm tảo phát triển quá mức. Điều gì xảy ra khi lượng lớn tảo chết đi?",
+    "options": [
+      "Oxy trong nước giảm",
+      "Oxy tăng mạnh",
+      "Nước đóng băng",
+      "Độ sâu hồ tăng"
+    ],
+    "answer": "Oxy trong nước giảm"
+  },
+  {
+    "question": "Nếu một cây chỉ được chiếu ánh sáng màu xanh lá cây, cây sẽ phát triển kém vì sao?",
+    "options": [
+      "Lá phản xạ nhiều ánh sáng xanh lá",
+      "Lá hấp thụ toàn bộ ánh sáng xanh lá",
+      "Ánh sáng xanh lá nóng hơn",
+      "Ánh sáng xanh lá không có năng lượng"
+    ],
+    "answer": "Lá phản xạ nhiều ánh sáng xanh lá"
+  },
+  {
+    "question": "Trong một ngày không mây, vì sao bầu trời có màu xanh?",
+    "options": [
+      "Ánh sáng xanh bị tán xạ mạnh hơn",
+      "Khí quyển màu xanh",
+      "Biển phản chiếu lên trời",
+      "Mặt Trời phát ra ánh sáng xanh"
+    ],
+    "answer": "Ánh sáng xanh bị tán xạ mạnh hơn"
+  },
+  {
+    "question": "Nếu toàn bộ nước trên Trái Đất ngừng bay hơi, điều gì sẽ xảy ra lâu dài?",
+    "options": [
+      "Chu trình nước bị gián đoạn",
+      "Mưa nhiều hơn",
+      "Biển sâu hơn ngay",
+      "Khí quyển biến mất"
+    ],
+    "answer": "Chu trình nước bị gián đoạn"
+  },
+  {
+    "question": "Tại sao các nhà kính trồng cây thường dùng vật liệu trong suốt?",
+    "options": [
+      "Cho ánh sáng đi qua nhưng giữ nhiệt tốt",
+      "Ngăn cây quang hợp",
+      "Tăng lượng oxy",
+      "Giảm độ ẩm"
+    ],
+    "answer": "Cho ánh sáng đi qua nhưng giữ nhiệt tốt"
+  },
+
+  {
+    "question": "Nếu một loài săn mồi đầu bảng biến mất, hệ sinh thái thường gặp nguy cơ gì?",
+    "options": [
+      "Mất cân bằng số lượng các loài",
+      "Tăng oxy",
+      "Giảm ánh sáng Mặt Trời",
+      "Tăng diện tích đất"
+    ],
+    "answer": "Mất cân bằng số lượng các loài"
+  },
+  {
+    "question": "Một vật màu đỏ được đặt dưới ánh sáng xanh lam thuần túy. Vật có thể trông thế nào?",
+    "options": [
+      "Rất tối hoặc gần như đen",
+      "Đỏ sáng",
+      "Trắng",
+      "Vàng"
+    ],
+    "answer": "Rất tối hoặc gần như đen"
+  },
+  {
+    "question": "Nếu tất cả cây xanh đều hấp thụ hoàn toàn ánh sáng xanh lá thay vì phản xạ, lá cây sẽ có màu gì?",
+    "options": [
+      "Gần như đen",
+      "Xanh lá đậm hơn",
+      "Trắng",
+      "Trong suốt"
+    ],
+    "answer": "Gần như đen"
+  },
+  {
+    "question": "Tại sao nhiệt độ trên sa mạc thay đổi rất lớn giữa ngày và đêm?",
+    "options": [
+      "Ít mây và độ ẩm thấp",
+      "Ít mưa",
+      "Ít cây xanh",
+      "Do nắng nóng"
+    ],
+    "answer": "Ít mây và độ ẩm thấp"
+  },
+  {
+    "question": "Nếu một người uống rất ít nước trong nhiều ngày, cơ quan nào phải làm việc khó khăn hơn để giữ nước?",
+    "options": [
+      "Thận",
+      "Phổi",
+      "Tai",
+      "Da"
+    ],
+    "answer": "Thận"
   }
 ]
