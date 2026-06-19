@@ -12,11 +12,9 @@ function shuffle(array){
 }
 
 async function chooseSubject(subject){
-
     let html = "<h2>Chọn lớp</h2>";
 
     try{
-
         const response = await fetch( "https://api.github.com/repos/duocpvload/GaVang-Quiz/contents",
             {
                 cache: "no-store"
