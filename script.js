@@ -143,55 +143,39 @@ function checkAnswer(selected, answer){
     }
 
 setTimeout(()=>{
-
     current++;
-
     if(current>=questions.length){
-
         const totalSeconds =
             Math.floor(
                 (Date.now()-startTime)/1000
             );
-
         const minutes =
             Math.floor(totalSeconds/60);
-
         const seconds =
             totalSeconds%60;
-
         saveResult(
             score,
             totalSeconds
         );
-
         document.getElementById("quiz").innerHTML=`
-
         <h2>🎉 Hoàn thành!</h2>
-
         <p><b>👤 Người chơi:</b> ${playerName}</p>
-
         <p><b>📚 Môn học:</b> ${currentSubject}</p>
-
         <p><b>🏫 Lớp:</b> ${currentGrade}</p>
-
         <h1>🏆 ${score}/${questions.length}</h1>
-
         <p>
         ⏱️ Thời gian:
         ${minutes} phút ${seconds} giây
         </p>
-
         <button onclick="location.reload()">
             Chơi lại
         </button>
-
         `;
     }
     else{
         showQuestion();
     }
-
-},1500);
+  },1500);
 }
 
 async function saveResult(score, totalSeconds){
@@ -200,22 +184,25 @@ async function saveResult(score, totalSeconds){
         subject: currentSubject,
         grade: currentGrade,
         score: `${score}/${questions.length}`,
-        time: totalSeconds,
-        date: new Date().toLocaleString()
+        time: totalSeconds
     };
+    console.log("Đang gửi:", data);
     try{
-        await fetch(
-          "https://script.google.com/macros/s/AKfycbxUfbQa9TBPnXBunxmpphgzBc5BiSJ5t6wXM-Z9fdo_-7p7fRxb23RLrbMiHd7U5RS_vA/exec",
+        const response = await fetch(
+            "https://script.google.com/macros/s/AKfycbxUfbQa9TBPnXBunxmpphgzBc5BiSJ5t6wXM-Z9fdo_-7p7fRxb23RLrbMiHd7U5RS_vA/exec",
             {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json"
                 },
                 body: JSON.stringify(data)
             }
         );
-        console.log("Đã lưu kết quả");
-    }catch(err){
-        console.error("Lỗi lưu kết quả", err);
+        console.log("Status:", response.status);
+        const text = await response.text();
+        console.log(text);
+    }
+    catch(err){
+        console.error(err);
     }
 }
