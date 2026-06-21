@@ -186,7 +186,7 @@ async function saveResult(score, totalSeconds){
     formData.append("name", playerName);
     formData.append("subject", currentSubject);
     formData.append("grade",currentGrade);
-    formData.append("score",`${score}/${questions.length}`);
+    formData.append("score",`${score}`);
     formData.append("time",totalSeconds);
 
     console.log("Bắt đầu lưu!!");
