@@ -206,27 +206,37 @@ async function saveResult(score, totalSeconds){
 }
 
 async function showRanking(subject){
-    const response = await fetch("https://script.google.com/macros/s/AKfycbweGPipn842O_GlWeNF4NdA2JBIoY_Jd4X5k0FXR_jyW_Q8E9gCCyUA0jMUUBUlDCzjgA/exec");
-    const rows = await response.json();
-    rows.shift();
-    const filtered = rows.filter(r => r[1] === subject);
-    console.log("subject");
-    console.log("subject ${subject}");
-    console.log("${r[1]}");
-    filtered.sort((a, b) => {
-        const sa = Number(a[3]) || 0;
-        const sb = Number(b[3]) || 0;
+    const rankingEl = document.getElementById("ranking");
+    const loadingEl = document.getElementById("loadingText");
 
-        if (sb !== sa) return sb - sa;
-            const ta = Number(a[4]) || 0;
-            const tb = Number(b[4]) || 0;
-            return ta - tb;
-    });
+    try {
+        loadingEl.style.display = "block";
+        rankingEl.innerHTML = "";
+        rankingEl.appendChild(loadingEl);
+        const response = await fetch("https://script.google.com/macros/s/AKfycbweGPipn842O_GlWeNF4NdA2JBIoY_Jd4X5k0FXR_jyW_Q8E9gCCyUA0jMUUBUlDCzjgA/exec");
+        const rows = await response.json();
+        rows.shift();
+        const filtered = rows.filter(r => r[1] === subject);
+        filtered.sort((a, b) => {
+            const sa = Number(a[3]) || 0;
+            const sb = Number(b[3]) || 0;
+    
+            if (sb !== sa) return sb - sa;
+                const ta = Number(a[4]) || 0;
+                const tb = Number(b[4]) || 0;
+                return ta - tb;
+        });
+    
+        let html = `<h2>🏆 ${subject}</h2>`;
+        filtered.slice(0,10).forEach((r,i)=>{
+            html += `<p>${i+1}.${r[0]}(${r[3]})</p>`;
+        });
 
-    let html = `<h2>🏆 ${subject}</h2>`;
-    filtered.slice(0,10).forEach((r,i)=>{
-        html += `<p>${i+1}.${r[0]}(${r[3]})</p>`;
-    });
-
-    document.getElementById("ranking").innerHTML = html;
+        rankingEl.innerHTML = html;
+    } catch (err) {
+        rankingEl.innerHTML = "❌ Lỗi tải bảng xếp hạng";
+        console.error(err);
+    } finally {
+        loadingEl.style.display = "none";
+    }
 }
