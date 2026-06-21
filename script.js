@@ -153,7 +153,6 @@ setTimeout(()=>{
             Math.floor(totalSeconds/60);
         const seconds =
             totalSeconds%60;
-        alert("Đã call tới saveResult");
         saveResult(
             score,
             totalSeconds
