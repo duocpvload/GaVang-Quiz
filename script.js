@@ -229,7 +229,10 @@ async function showRanking(subject){
     
         let html = `<h2>🏆 ${subject}</h2>`;
         filtered.slice(0,10).forEach((r,i)=>{
-            html += `<p>${i+1}.${r[0]}(${r[3]})</p>`;
+            const name = r[0];
+            const score = r[3];
+            const time = r[4];
+            html += `<p>${i+1}. ${name} - ${score} điểm ⏱ ${time}s</p>`;
         });
 
         rankingEl.innerHTML = html;
