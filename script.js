@@ -203,7 +203,7 @@ async function saveResult(score, totalSeconds){
 }
 
 async function showRanking(subject){
-    const response = await fetch(URL);
+    const response = await fetch("https://script.google.com/macros/s/AKfycbweGPipn842O_GlWeNF4NdA2JBIoY_Jd4X5k0FXR_jyW_Q8E9gCCyUA0jMUUBUlDCzjgA/exec");
     const rows = await response.json();
     rows.shift();
     const filtered = rows.filter(r => r[1] === subject);
