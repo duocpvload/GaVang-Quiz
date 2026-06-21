@@ -189,7 +189,7 @@ async function saveResult(score, totalSeconds){
     console.log("Bắt đầu lưu!!");
     try{
         await fetch(
-            "https://script.google.com/macros/s/AKfycbxUfbQa9TBPnXBunxmpphgzBc5BiSJ5t6wXM-Z9fdo_-7p7fRxb23RLrbMiHd7U5RS_vA/exec",
+            "https://script.google.com/macros/s/AKfycbyynlXEA5y4tUg79brSEyk39prvxFBRVaRn_ixZXNRBjT52OsMequdhrkHeido75Wq9LA/exec",
             {
                 method:"POST",
                 body: formData
