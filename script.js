@@ -167,8 +167,8 @@ setTimeout(()=>{
         ⏱️ Thời gian:
         ${minutes} phút ${seconds} giây
         </p>
-        <button onclick="showRanking(${currentSubject})">
-            🏆 BXH ${currentSubject}
+        <button onclick="showRanking('${currentSubject}')">
+            🏆 Bảng xếp hạng
         </button>
         <button onclick="location.reload()">
             Chơi lại
