@@ -210,10 +210,16 @@ async function showRanking(subject){
     const rows = await response.json();
     rows.shift();
     const filtered = rows.filter(r => r[1] === subject);
-    filtered.sort((a,b)=>{
-        const sa = parseInt(a[3]);
-        const sb = parseInt(b[3]);
-        return sb-sa;
+    console.log("${subject}");
+    console.log("${r[1]}");
+    filtered.sort((a, b) => {
+        const sa = Number(a[3]) || 0;
+        const sb = Number(b[3]) || 0;
+
+        if (sb !== sa) return sb - sa;
+            const ta = Number(a[4]) || 0;
+            const tb = Number(b[4]) || 0;
+            return ta - tb;
     });
 
     let html = `<h2>🏆 ${subject}</h2>`;
