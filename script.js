@@ -180,29 +180,23 @@ setTimeout(()=>{
 }
 
 async function saveResult(score, totalSeconds){
-    const data = {
-        name: playerName,
-        subject: currentSubject,
-        grade: currentGrade,
-        score: `${score}/${questions.length}`,
-        time: totalSeconds
-    };
-    alert("Đang gửi!!");
-    console.log("Đang gửi:", data);
+    const formData = new FormData();
+    formData.append("name", playerName);
+    formData.append("subject", currentSubject);
+    formData.append("grade",currentGrade);
+    formData.append("score",`${score}/${questions.length}`);
+    formData.append("time",totalSeconds);
+
+    console.log("Bắt đầu lưu!!");
     try{
-        const response = await fetch(
+        await fetch(
             "https://script.google.com/macros/s/AKfycbxUfbQa9TBPnXBunxmpphgzBc5BiSJ5t6wXM-Z9fdo_-7p7fRxb23RLrbMiHd7U5RS_vA/exec",
             {
                 method:"POST",
-                headers:{
-                    "Content-Type":"application/json"
-                },
-                body: JSON.stringify(data)
+                body: formData
             }
         );
-        console.log("Status:", response.status);
-        const text = await response.text();
-        console.log(text);
+        console.log("Đã lưu");
     }
     catch(err){
         console.error(err);
