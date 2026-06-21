@@ -153,6 +153,7 @@ setTimeout(()=>{
             Math.floor(totalSeconds/60);
         const seconds =
             totalSeconds%60;
+        alert("Đã call tới saveResult");
         saveResult(
             score,
             totalSeconds
@@ -186,6 +187,7 @@ async function saveResult(score, totalSeconds){
         score: `${score}/${questions.length}`,
         time: totalSeconds
     };
+    alert("Đang gửi!!");
     console.log("Đang gửi:", data);
     try{
         const response = await fetch(
