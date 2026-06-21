@@ -51,17 +51,20 @@
         Bắt đầu
     </button>
 </div>
-<button onclick="showRanking('toan')">
-🏆 Bảng xếp hạng Toán
-</button>
 
-<button onclick="showRanking('tieng_viet')">
-🏆 Bảng xếp hạng Tiếng Việt
-</button>
-
-<button onclick="showRanking('khoa_hoc')">
-🏆 Bảng xếp hạng Khoa học
-</button>
+<div id="rankingMenu" style="display:none">
+    <button onclick="showRanking('toan')">
+    🏆 Bảng xếp hạng Toán
+    </button>
+    
+    <button onclick="showRanking('tieng_viet')">
+    🏆 Bảng xếp hạng Tiếng Việt
+    </button>
+    
+    <button onclick="showRanking('khoa_hoc')">
+    🏆 Bảng xếp hạng Khoa học
+    </button>
+</div>
 <div id="ranking"></div>
 
 <script src="script.js"></script>
