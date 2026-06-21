@@ -201,3 +201,22 @@ async function saveResult(score, totalSeconds){
         console.error(err);
     }
 }
+
+async function showRanking(subject){
+    const response = await fetch(URL);
+    const rows = await response.json();
+    rows.shift();
+    const filtered = rows.filter(r => r[1] === subject);
+    filtered.sort((a,b)=>{
+        const sa = parseInt(a[3]);
+        const sb = parseInt(b[3]);
+        return sb-sa;
+    });
+
+    let html = `<h2>🏆 ${subject}</h2>`;
+    filtered.slice(0,10).forEach((r,i)=>{
+        html += `<p>${i+1}.${r[0]}(${r[3]})</p>`;
+    });
+
+    document.getElementById("ranking").innerHTML = html;
+}
