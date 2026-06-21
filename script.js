@@ -210,7 +210,8 @@ async function showRanking(subject){
     const rows = await response.json();
     rows.shift();
     const filtered = rows.filter(r => r[1] === subject);
-    console.log("${subject}");
+    console.log("subject");
+    console.log("subject ${subject}");
     console.log("${r[1]}");
     filtered.sort((a, b) => {
         const sa = Number(a[3]) || 0;
